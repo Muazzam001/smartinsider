@@ -1,0 +1,727 @@
+.label-text {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.label-text .return-buy i {
+    color: #6EBE01;
+}
+
+.label-text .return-sell i {
+    color: #F44236;
+}
+
+.pie-wrapper {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.pie-wrapper .arc, .pie-wrapper:before {
+    content: '';
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    -ms-transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pie-wrapper:before {
+    border: 10px solid #c5c5c5;
+    border-bottom: none;
+    top: 0;
+    z-index: 1;
+    border-radius: 300px 300px 0 0;
+}
+
+.pie-wrapper .arc {
+    border: 10px solid #c5c5c5;
+    border-top: none;
+    border-radius: 0 0 300px 300px;
+    top: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.pie-wrapper .arc::before {
+    content: "";
+    height: 1px;
+    width: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.pie-wrapper .score {
+    color: #212529;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+}
+
+.arc[data-value] {
+    -webkit-animation: fill 2s;
+    animation: fill 2s;
+    -webkit-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
+}
+
+.c-buy .arc[data-value] {
+    border-color: #6EBE01;
+}
+
+.c-sell .arc[data-value] {
+    border-color: #F44236;
+}
+
+
+.c-buy .arc[data-value]::before {
+    background-color: #6EBE01;
+}
+
+.c-sell .arc[data-value]::before {
+    background-color: #F44236;
+}
+
+.arc[data-value]:after {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 5px;
+}
+
+.arc[data-value="1"] {
+    -ms-transform: rotate(1.8deg);
+    -webkit-transform: rotate(1.8deg);
+    transform: rotate(1.8deg);
+}
+
+.arc[data-value="2"] {
+    -ms-transform: rotate(3.6deg);
+    -webkit-transform: rotate(3.6deg);
+    transform: rotate(3.6deg);
+}
+
+.arc[data-value="3"] {
+    -ms-transform: rotate(5.4deg);
+    -webkit-transform: rotate(5.4deg);
+    transform: rotate(5.4deg);
+}
+
+.arc[data-value="4"] {
+    -ms-transform: rotate(7.2deg);
+    -webkit-transform: rotate(7.2deg);
+    transform: rotate(7.2deg);
+}
+
+.arc[data-value="5"] {
+    -ms-transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+    transform: rotate(9deg);
+}
+
+.arc[data-value="6"] {
+    -ms-transform: rotate(10.8deg);
+    -webkit-transform: rotate(10.8deg);
+    transform: rotate(10.8deg);
+}
+
+.arc[data-value="7"] {
+    -ms-transform: rotate(12.6deg);
+    -webkit-transform: rotate(12.6deg);
+    transform: rotate(12.6deg);
+}
+
+.arc[data-value="8"] {
+    -ms-transform: rotate(14.4deg);
+    -webkit-transform: rotate(14.4deg);
+    transform: rotate(14.4deg);
+}
+
+.arc[data-value="9"] {
+    -ms-transform: rotate(16.2deg);
+    -webkit-transform: rotate(16.2deg);
+    transform: rotate(16.2deg);
+}
+
+.arc[data-value="10"] {
+    -ms-transform: rotate(18deg);
+    -webkit-transform: rotate(18deg);
+    transform: rotate(18deg);
+}
+
+.arc[data-value="11"] {
+    -ms-transform: rotate(19.8deg);
+    -webkit-transform: rotate(19.8deg);
+    transform: rotate(19.8deg);
+}
+
+.arc[data-value="12"] {
+    -ms-transform: rotate(21.6deg);
+    -webkit-transform: rotate(21.6deg);
+    transform: rotate(21.6deg);
+}
+
+.arc[data-value="13"] {
+    -ms-transform: rotate(23.4deg);
+    -webkit-transform: rotate(23.4deg);
+    transform: rotate(23.4deg);
+}
+
+.arc[data-value="14"] {
+    -ms-transform: rotate(25.2deg);
+    -webkit-transform: rotate(25.2deg);
+    transform: rotate(25.2deg);
+}
+
+.arc[data-value="15"] {
+    -ms-transform: rotate(27deg);
+    -webkit-transform: rotate(27deg);
+    transform: rotate(27deg);
+}
+
+.arc[data-value="16"] {
+    -ms-transform: rotate(28.8deg);
+    -webkit-transform: rotate(28.8deg);
+    transform: rotate(28.8deg);
+}
+
+.arc[data-value="17"] {
+    -ms-transform: rotate(30.6deg);
+    -webkit-transform: rotate(30.6deg);
+    transform: rotate(30.6deg);
+}
+
+.arc[data-value="18"] {
+    -ms-transform: rotate(32.4deg);
+    -webkit-transform: rotate(32.4deg);
+    transform: rotate(32.4deg);
+}
+
+.arc[data-value="19"] {
+    -ms-transform: rotate(34.2deg);
+    -webkit-transform: rotate(34.2deg);
+    transform: rotate(34.2deg);
+}
+
+.arc[data-value="20"] {
+    -ms-transform: rotate(36deg);
+    -webkit-transform: rotate(36deg);
+    transform: rotate(36deg);
+}
+
+.arc[data-value="21"] {
+    -ms-transform: rotate(37.8deg);
+    -webkit-transform: rotate(37.8deg);
+    transform: rotate(37.8deg);
+}
+
+.arc[data-value="22"] {
+    -ms-transform: rotate(39.6deg);
+    -webkit-transform: rotate(39.6deg);
+    transform: rotate(39.6deg);
+}
+
+.arc[data-value="23"] {
+    -ms-transform: rotate(41.4deg);
+    -webkit-transform: rotate(41.4deg);
+    transform: rotate(41.4deg);
+}
+
+.arc[data-value="24"] {
+    -ms-transform: rotate(43.2deg);
+    -webkit-transform: rotate(43.2deg);
+    transform: rotate(43.2deg);
+}
+
+.arc[data-value="25"] {
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.arc[data-value="26"] {
+    -ms-transform: rotate(46.8deg);
+    -webkit-transform: rotate(46.8deg);
+    transform: rotate(46.8deg);
+}
+
+.arc[data-value="27"] {
+    -ms-transform: rotate(48.6deg);
+    -webkit-transform: rotate(48.6deg);
+    transform: rotate(48.6deg);
+}
+
+.arc[data-value="28"] {
+    -ms-transform: rotate(50.4deg);
+    -webkit-transform: rotate(50.4deg);
+    transform: rotate(50.4deg);
+}
+
+.arc[data-value="29"] {
+    -ms-transform: rotate(52.2deg);
+    -webkit-transform: rotate(52.2deg);
+    transform: rotate(52.2deg);
+}
+
+.arc[data-value="30"] {
+    -ms-transform: rotate(54deg);
+    -webkit-transform: rotate(54deg);
+    transform: rotate(54deg);
+}
+
+.arc[data-value="31"] {
+    -ms-transform: rotate(55.8deg);
+    -webkit-transform: rotate(55.8deg);
+    transform: rotate(55.8deg);
+}
+
+.arc[data-value="32"] {
+    -ms-transform: rotate(57.6deg);
+    -webkit-transform: rotate(57.6deg);
+    transform: rotate(57.6deg);
+}
+
+.arc[data-value="33"] {
+    -ms-transform: rotate(59.4deg);
+    -webkit-transform: rotate(59.4deg);
+    transform: rotate(59.4deg);
+}
+
+.arc[data-value="34"] {
+    -ms-transform: rotate(61.2deg);
+    -webkit-transform: rotate(61.2deg);
+    transform: rotate(61.2deg);
+}
+
+.arc[data-value="35"] {
+    -ms-transform: rotate(63deg);
+    -webkit-transform: rotate(63deg);
+    transform: rotate(63deg);
+}
+
+.arc[data-value="36"] {
+    -ms-transform: rotate(64.8deg);
+    -webkit-transform: rotate(64.8deg);
+    transform: rotate(64.8deg);
+}
+
+.arc[data-value="37"] {
+    -ms-transform: rotate(66.6deg);
+    -webkit-transform: rotate(66.6deg);
+    transform: rotate(66.6deg);
+}
+
+.arc[data-value="38"] {
+    -ms-transform: rotate(68.4deg);
+    -webkit-transform: rotate(68.4deg);
+    transform: rotate(68.4deg);
+}
+
+.arc[data-value="39"] {
+    -ms-transform: rotate(70.2deg);
+    -webkit-transform: rotate(70.2deg);
+    transform: rotate(70.2deg);
+}
+
+.arc[data-value="40"] {
+    -ms-transform: rotate(72deg);
+    -webkit-transform: rotate(72deg);
+    transform: rotate(72deg);
+}
+
+.arc[data-value="41"] {
+    -ms-transform: rotate(73.8deg);
+    -webkit-transform: rotate(73.8deg);
+    transform: rotate(73.8deg);
+}
+
+.arc[data-value="42"] {
+    -ms-transform: rotate(75.6deg);
+    -webkit-transform: rotate(75.6deg);
+    transform: rotate(75.6deg);
+}
+
+.arc[data-value="43"] {
+    -ms-transform: rotate(77.4deg);
+    -webkit-transform: rotate(77.4deg);
+    transform: rotate(77.4deg);
+}
+
+.arc[data-value="44"] {
+    -ms-transform: rotate(79.2deg);
+    -webkit-transform: rotate(79.2deg);
+    transform: rotate(79.2deg);
+}
+
+.arc[data-value="45"] {
+    -ms-transform: rotate(81deg);
+    -webkit-transform: rotate(81deg);
+    transform: rotate(81deg);
+}
+
+.arc[data-value="46"] {
+    -ms-transform: rotate(82.8deg);
+    -webkit-transform: rotate(82.8deg);
+    transform: rotate(82.8deg);
+}
+
+.arc[data-value="47"] {
+    -ms-transform: rotate(84.6deg);
+    -webkit-transform: rotate(84.6deg);
+    transform: rotate(84.6deg);
+}
+
+.arc[data-value="48"] {
+    -ms-transform: rotate(86.4deg);
+    -webkit-transform: rotate(86.4deg);
+    transform: rotate(86.4deg);
+}
+
+.arc[data-value="49"] {
+    -ms-transform: rotate(88.2deg);
+    -webkit-transform: rotate(88.2deg);
+    transform: rotate(88.2deg);
+}
+
+.arc[data-value="50"] {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.arc[data-value="51"] {
+    -ms-transform: rotate(91.8deg);
+    -webkit-transform: rotate(91.8deg);
+    transform: rotate(91.8deg);
+}
+
+.arc[data-value="52"] {
+    -ms-transform: rotate(93.6deg);
+    -webkit-transform: rotate(93.6deg);
+    transform: rotate(93.6deg);
+}
+
+.arc[data-value="53"] {
+    -ms-transform: rotate(95.4deg);
+    -webkit-transform: rotate(95.4deg);
+    transform: rotate(95.4deg);
+}
+
+.arc[data-value="54"] {
+    -ms-transform: rotate(97.2deg);
+    -webkit-transform: rotate(97.2deg);
+    transform: rotate(97.2deg);
+}
+
+.arc[data-value="55"] {
+    -ms-transform: rotate(99deg);
+    -webkit-transform: rotate(99deg);
+    transform: rotate(99deg);
+}
+
+.arc[data-value="56"] {
+    -ms-transform: rotate(100.8deg);
+    -webkit-transform: rotate(100.8deg);
+    transform: rotate(100.8deg);
+}
+
+.arc[data-value="57"] {
+    -ms-transform: rotate(102.6deg);
+    -webkit-transform: rotate(102.6deg);
+    transform: rotate(102.6deg);
+}
+
+.arc[data-value="58"] {
+    -ms-transform: rotate(104.4deg);
+    -webkit-transform: rotate(104.4deg);
+    transform: rotate(104.4deg);
+}
+
+.arc[data-value="59"] {
+    -ms-transform: rotate(106.2deg);
+    -webkit-transform: rotate(106.2deg);
+    transform: rotate(106.2deg);
+}
+
+.arc[data-value="60"] {
+    -ms-transform: rotate(108deg);
+    -webkit-transform: rotate(108deg);
+    transform: rotate(108deg);
+}
+
+.arc[data-value="61"] {
+    -ms-transform: rotate(109.8deg);
+    -webkit-transform: rotate(109.8deg);
+    transform: rotate(109.8deg);
+}
+
+.arc[data-value="62"] {
+    -ms-transform: rotate(111.6deg);
+    -webkit-transform: rotate(111.6deg);
+    transform: rotate(111.6deg);
+}
+
+.arc[data-value="63"] {
+    -ms-transform: rotate(113.4deg);
+    -webkit-transform: rotate(113.4deg);
+    transform: rotate(113.4deg);
+}
+
+.arc[data-value="64"] {
+    -ms-transform: rotate(115.2deg);
+    -webkit-transform: rotate(115.2deg);
+    transform: rotate(115.2deg);
+}
+
+.arc[data-value="65"] {
+    -ms-transform: rotate(117deg);
+    -webkit-transform: rotate(117deg);
+    transform: rotate(117deg);
+}
+
+.arc[data-value="66"] {
+    -ms-transform: rotate(118.8deg);
+    -webkit-transform: rotate(118.8deg);
+    transform: rotate(118.8deg);
+}
+
+.arc[data-value="67"] {
+    -ms-transform: rotate(120.6deg);
+    -webkit-transform: rotate(120.6deg);
+    transform: rotate(120.6deg);
+}
+
+.arc[data-value="68"] {
+    -ms-transform: rotate(122.4deg);
+    -webkit-transform: rotate(122.4deg);
+    transform: rotate(122.4deg);
+}
+
+.arc[data-value="69"] {
+    -ms-transform: rotate(124.2deg);
+    -webkit-transform: rotate(124.2deg);
+    transform: rotate(124.2deg);
+}
+
+.arc[data-value="70"] {
+    -ms-transform: rotate(126deg);
+    -webkit-transform: rotate(126deg);
+    transform: rotate(126deg);
+}
+
+.arc[data-value="71"] {
+    -ms-transform: rotate(127.8deg);
+    -webkit-transform: rotate(127.8deg);
+    transform: rotate(127.8deg);
+}
+
+.arc[data-value="72"] {
+    -ms-transform: rotate(129.6deg);
+    -webkit-transform: rotate(129.6deg);
+    transform: rotate(129.6deg);
+}
+
+.arc[data-value="73"] {
+    -ms-transform: rotate(131.4deg);
+    -webkit-transform: rotate(131.4deg);
+    transform: rotate(131.4deg);
+}
+
+.arc[data-value="74"] {
+    -ms-transform: rotate(133.2deg);
+    -webkit-transform: rotate(133.2deg);
+    transform: rotate(133.2deg);
+}
+
+.arc[data-value="75"] {
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.arc[data-value="76"] {
+    -ms-transform: rotate(136.8deg);
+    -webkit-transform: rotate(136.8deg);
+    transform: rotate(136.8deg);
+}
+
+.arc[data-value="77"] {
+    -ms-transform: rotate(138.6deg);
+    -webkit-transform: rotate(138.6deg);
+    transform: rotate(138.6deg);
+}
+
+.arc[data-value="78"] {
+    -ms-transform: rotate(140.4deg);
+    -webkit-transform: rotate(140.4deg);
+    transform: rotate(140.4deg);
+}
+
+.arc[data-value="79"] {
+    -ms-transform: rotate(142.2deg);
+    -webkit-transform: rotate(142.2deg);
+    transform: rotate(142.2deg);
+}
+
+.arc[data-value="80"] {
+    -ms-transform: rotate(144deg);
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+}
+
+.arc[data-value="81"] {
+    -ms-transform: rotate(145.8deg);
+    -webkit-transform: rotate(145.8deg);
+    transform: rotate(145.8deg);
+}
+
+.arc[data-value="82"] {
+    -ms-transform: rotate(147.6deg);
+    -webkit-transform: rotate(147.6deg);
+    transform: rotate(147.6deg);
+}
+
+.arc[data-value="83"] {
+    -ms-transform: rotate(149.4deg);
+    -webkit-transform: rotate(149.4deg);
+    transform: rotate(149.4deg);
+}
+
+.arc[data-value="84"] {
+    -ms-transform: rotate(151.2deg);
+    -webkit-transform: rotate(151.2deg);
+    transform: rotate(151.2deg);
+}
+
+.arc[data-value="85"] {
+    -ms-transform: rotate(153deg);
+    -webkit-transform: rotate(153deg);
+    transform: rotate(153deg);
+}
+
+.arc[data-value="86"] {
+    -ms-transform: rotate(154.8deg);
+    -webkit-transform: rotate(154.8deg);
+    transform: rotate(154.8deg);
+}
+
+.arc[data-value="87"] {
+    -ms-transform: rotate(156.6deg);
+    -webkit-transform: rotate(156.6deg);
+    transform: rotate(156.6deg);
+}
+
+.arc[data-value="88"] {
+    -ms-transform: rotate(158.4deg);
+    -webkit-transform: rotate(158.4deg);
+    transform: rotate(158.4deg);
+}
+
+.arc[data-value="89"] {
+    -ms-transform: rotate(160.2deg);
+    -webkit-transform: rotate(160.2deg);
+    transform: rotate(160.2deg);
+}
+
+.arc[data-value="90"] {
+    -ms-transform: rotate(162deg);
+    -webkit-transform: rotate(162deg);
+    transform: rotate(162deg);
+}
+
+.arc[data-value="91"] {
+    -ms-transform: rotate(163.8deg);
+    -webkit-transform: rotate(163.8deg);
+    transform: rotate(163.8deg);
+}
+
+.arc[data-value="92"] {
+    -ms-transform: rotate(165.6deg);
+    -webkit-transform: rotate(165.6deg);
+    transform: rotate(165.6deg);
+}
+
+.arc[data-value="93"] {
+    -ms-transform: rotate(167.4deg);
+    -webkit-transform: rotate(167.4deg);
+    transform: rotate(167.4deg);
+}
+
+.arc[data-value="94"] {
+    -ms-transform: rotate(169.2deg);
+    -webkit-transform: rotate(169.2deg);
+    transform: rotate(169.2deg);
+}
+
+.arc[data-value="95"] {
+    -ms-transform: rotate(171deg);
+    -webkit-transform: rotate(171deg);
+    transform: rotate(171deg);
+}
+
+.arc[data-value="96"] {
+    -ms-transform: rotate(172.8deg);
+    -webkit-transform: rotate(172.8deg);
+    transform: rotate(172.8deg);
+}
+
+.arc[data-value="97"] {
+    -ms-transform: rotate(174.6deg);
+    -webkit-transform: rotate(174.6deg);
+    transform: rotate(174.6deg);
+}
+
+.arc[data-value="98"] {
+    -ms-transform: rotate(176.4deg);
+    -webkit-transform: rotate(176.4deg);
+    transform: rotate(176.4deg);
+}
+
+.arc[data-value="99"] {
+    -ms-transform: rotate(178.2deg);
+    -webkit-transform: rotate(178.2deg);
+    transform: rotate(178.2deg);
+}
+
+.arc[data-value="100"] {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+@-webkit-keyframes fill {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes fill {
+    0% {
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}

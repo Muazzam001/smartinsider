@@ -1,0 +1,3161 @@
+@import url("header.css?v=1.0");
+@import url("medias.css?v=1.0");
+
+/* FONT SIZES */
+.trading-section .trading-block table thead th,
+.collapsible-block .trading-detail .analysis-detail table.table thead th,
+.return-analysis-block .sm-heading,
+.trans-amount-misc,
+.collapsible-block .switcher-box .switch,
+.score-rate h4,
+.sum-footer .sum-note {
+    font-size: 0.70rem;
+}
+
+.issuer-actions .fc-action-button,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate,
+.switcher-block .head,
+.trade-filter,
+.filter-label,
+.table td,
+.prof-desc-detail,
+.trading-summary .sum-footer .sum-link a,
+.checkboxes .form-check-label {
+    font-size: 0.75rem;
+}
+
+.director-data .data-col,
+.ratingstars tr td,
+.download-info span,
+.icb td,
+.document_table td,
+.news_table th,
+.news_table td,
+.buybackterms tr td,
+.transactiontypes th,
+.transactiontypes td {
+    font-size: 0.80rem;
+}
+
+.expanded .blog-form .company-info,
+.ratingstars tr th,
+.slide-label,
+.buybackterms tr th,
+.commentry-box,
+.rank-row-head .rank-col,
+.rank-row-body .rank-col,
+.collapse-icon {
+    font-size: 0.85rem;
+}
+
+span.multiple-header,
+.title-col {
+    font-size: 0.90rem;
+}
+
+.dashboard-intro h2,
+.cards-section .card .card-heading,
+.document_table thead th,
+.transactiontypes thead th,
+.modal-inner-head,
+button.btn.button,
+.table td.abs-return,
+.trans-amount-amt .crc-amount,
+.sum-footer .sum-link a,
+.heading.criteria,
+.main-title,
+.md-accordion .card .card-header .heading span.heading-title,
+.trading-detail .analysis-detail .return-analysis-header .heading,
+.trading-section .trading-block .latest {
+    font-size: 1.0rem;
+}
+
+.search-filter.heading .transaction-detail {
+    font-size: 1.075rem;
+}
+
+.chart-section .chart-block .heading,
+.chart-section .chart-block-com .heading,
+.search-filter.heading,
+.trading-section .trading-block .heading {
+    font-size: 1.10rem;
+}
+
+.searchbox i,
+.prof-desc-name .heading,
+.link-text .more-wrapper .show-more i.icon-change {
+    font-size: 1.15rem;
+}
+
+.fa-125,
+.company .switcher-block i,
+.copy-to-board .type-icon,
+.issuer-actions .fc-action-button a i {
+    font-size: 1.25rem;
+}
+
+/* /FONT SIZES */
+.ratingstars tr th,
+.transactiontypes tr th,
+.transactiontypes tr td,
+.news_table tr th,
+.document_table tr th,
+.news_table tr td,
+.document_table tr td {
+    padding: 4px 10px;
+}
+
+
+.portfoliotable tr td {
+    padding: 5px 6px;
+}
+
+.portfoliotable tr td:first-child a {
+    font-weight: 700;
+    padding-left: 10px;
+    color: #555555;
+}
+
+/* BACKGROUNDS - COLORS */
+
+/* Background */
+
+.bg-first {
+    background: #b5b8c8;
+}
+
+.bg-fourth,
+.bg-second {
+    background: #c2c2c2;
+}
+
+.bg-third,
+.delete_boxes,
+.alert-primary.response,
+.buybackterms tr.odd,
+.ratingstars tr.odd,
+.news_table tbody tr.odd,
+.document_table tbody tr.odd,
+.portfoliotable tbody tr.odd,
+.transactiontypes tbody tr.odd td,
+.rank-manager-search-table tbody tr.odd td,
+.nested-tables table.table table.intention_table,
+.portfoliolist_sec .dataTables_wrapper .dataTable.portfoliolist_table tr.odd {
+    background: #dfecfc;
+}
+
+.rank-manager-search-table tbody tr.even td,
+.transactiontypes tbody tr.even td,
+.buybackterms tr.even,
+.ratingstars tr.even,
+.news_table tbody tr.even,
+.document_table tbody tr.even,
+.portfoliotable tbody tr.even,
+.bg-fifth {
+    background: #ffffff;
+}
+
+.trading-detail .return-analysis-center,
+.trading-section .trading-block,
+.cards-section .card-wrapper.odd .card {
+    background: #f0f3f6 !important;
+}
+
+.chart-section,
+.header-intro,
+.background {
+    background: #e1e9f0 !important;
+}
+
+.cards-section .card-wrapper.even .card {
+    background: #ffffff !important;
+}
+
+.chart-section .chart-block-com {
+    background: #f7f9fb;
+}
+
+.uploadBtn,
+.trading-detail hr {
+    background-color: #00adf1;
+}
+
+tr.custom-tr {
+    background-color: #f0efef !important;
+}
+
+/*.document_table tbody tr.even td:first-child*/
+.document_table tbody tr.odd td:first-child {
+    background-color: #d2e4fb;
+}
+
+/*.buybackterms tr.even td.sorting_1,*/
+/*.transactiontypes tbody tr.even td.sorting_1,*/
+/*.document_table tbody tr.even td.sorting_1:first-child,*/
+.transactiontypes tbody tr:hover td,
+.transactiontypes tbody tr.odd:hover td.sorting_1,
+.transactiontypes tbody tr.even:hover td.sorting_1,
+.buybackterms tr.odd:hover td,
+.buybackterms tr.even:hover td,
+.document_table tbody tr.odd:hover td.sorting_1,
+.document_table tbody tr.even:hover td.sorting_1,
+.document_table tbody tr:hover,
+.document_table tbody .selected,
+.news_table tbody tr:hover {
+    background-color: #EAEBFF !important;
+}
+
+/* Colors */
+.cards-section .card .card-heading {
+    color: #81858b;
+}
+
+.backLink a,
+.head-icon i,
+.trading-detail hr,
+table.dataTable tbody td a,
+table.dataTable thead th a,
+.director-data .data-col a,
+.cards-section .card a,
+.custom-select-option,
+.link-text .more-company,
+.link-text .more-wrapper .show-more,
+.link-text .more-wrapper .show-more i,
+.link-text .more-wrapper .show-more span,
+.nested-tables .intention .icon,
+.card-header .toggle-section > a,
+.trading-summary .sum-footer .sum-link a,
+.nested-tables table.table th.company-name,
+.portfoliotable tr td:first-child a:hover,
+.portfoliotable tr td:first-child a:focus,
+.portfoliotable tr td:first-child a:active,
+.admincompany .user_activity_table1 a,
+.nested-tables table.table.buyback_table > thead th.company a,
+.admincompany #activityTabs ul#activityTabList .nav-item .nav-link,
+.news_table td.copy-to-board span a,
+.card-header .heading span,
+.info_boxes_wrapper a {
+    color: #00adf1;
+}
+
+button.bg-success:focus,
+.button.bg-success:hover,
+.button.bg-success:active {
+    background-color: #6ebe01 !important;
+}
+
+.infop1,
+.tabbed-tables i,
+a.sub-title:visited,
+a.sub-title:active,
+a.sub-title:focus,
+.copy-to-board .type-icon,
+.cards-section .card .mid-icon i,
+.ttypes-cols.col-left label.special,
+.nested-tables table.table .icons .icon-wrapper .icon-img .icon.IS,
+.nested-tables table.table .icons .icon-wrapper .icon-img .icon.OM {
+    color: #6ebe01;
+}
+
+.director-title .collapse-icon,
+table.dataTable tbody td a:hover,
+table.dataTable tbody td a:focus,
+table.dataTable tbody td a:active,
+table.dataTable thead th a:hover,
+table.dataTable thead th a:focus,
+table.dataTable thead th a:active,
+.trading-summary a.linkHistory {
+    color: #626262;
+}
+
+.response.alert,
+.custom-tab .activelink,
+.prof-desc-name .heading,
+.trans-amount-amt .crc-amount i,
+.trans-amount-amt .crc-amount,
+.sum-footer .sum-note,
+.chart-section .chart-block .heading,
+.trading-detail .analysis-detail .return-analysis-header .heading,
+.person .collapsible-block .trading-detail .analysis-detail table.table tbody td,
+.trading-section .trading-block table tbody td,
+.trading-section .trading-block .latest,
+.trading-section .trading-block .heading {
+    color: #393C40;
+}
+
+input.custom-control-input:checked + .custom-control-label,
+.rank-editor-heading span,
+.sidenav .float-nav li a,
+.custom-select-option select,
+.modalCustom .modal-dialog .alert-primary,
+.modalCustom .modal-body .md-form select,
+.custom-select-option .ms-options-wrap > button:focus,
+.custom-select-option .ms-options-wrap > button,
+.link-text .more-wrapper .more-info,
+.ms-options-wrap > .ms-options > ul label,
+table.display td a span.fa-file-alt {
+    color: #000000;
+}
+
+footer .copyright a {
+    color: #ffffff;
+}
+
+.rotate-img {
+    color: #707075;
+}
+
+.chart-section .md-accordion .card .card-header .toggle-section .heading-title,
+.chart-section .md-accordion .card .card-header .toggle-section .heading-title span,
+.custom-control-label,
+.prof-desc-detail,
+.trans-amount-misc,
+.link-text .company-info {
+    color: #6F737A;
+}
+
+.txt-orange,
+table.display td a span.fa-file-alt.txt-orange {
+    color: #ffa569 !important;
+}
+
+.ttypes-cols.col-left label {
+    color: #9bbb59;
+}
+
+.ttypes-cols.col-right label.special {
+    color: #ff0000;
+}
+
+.nested-tables table.table,
+.return-analysis-block .sm-heading,
+.trading-section .trading-block table thead th,
+.collapsible-block .trading-detail .analysis-detail table.table thead th,
+.dataTables_wrapper .dataTables_length .custom-select-option {
+    color: #333333;
+}
+
+.modalCustom .modal-dialog .alert-primary i,
+.fas.golden {
+    color: #ffa500;
+}
+
+.trade-selected-amount-all,
+.ttypes-cols.col-right label,
+.portfoliolist table .deletebutton {
+    color: #f44236;
+}
+
+.response.alert .fas,
+.rating .bars .fa.starm.active {
+    color: #ffa500;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+
+.overflow-x-visible {
+    overflow-x: visible;
+}
+
+.overflow-y-visible {
+    overflow-y: visible;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+/* BACKGROUNDS - COLORS */
+
+.icb tr th,
+table.dataTable thead th.center,
+table.dataTable tbody td.center,
+.document_table tr td:nth-last-child(1),
+.document_table tr td:nth-last-child(2) {
+    text-align: center !important;
+}
+
+.portfoliolist_sec .dataTables_wrapper .dataTable.portfoliolist_table tbody td:nth-child(4),
+.glossary_table.document_table tr td:nth-last-child(1),
+.glossary_table tbody tr td,
+.company-trade-table tbody tr td.persons,
+table.dataTable thead th.left,
+table.dataTable tbody td.left {
+    text-align: left !important;
+}
+
+table.dataTable thead th.right,
+table.dataTable tbody td.right,
+.nested-tables table.table .icons {
+    text-align: right !important;
+}
+
+.buybackterms tr th {
+    border-bottom: 1px solid;
+    font-weight: 600;
+}
+
+.buybackterms tr td:first-child,
+.buybackterms tr th:first-child {
+    min-width: 130px;
+}
+
+.buybackterms tr td {
+    padding: 5px;
+}
+
+.ratingstars tr td {
+    padding-left: 5px;
+}
+
+/* --------- SPLASH PAGE --------- */
+
+.splash .jumbotron {
+    background: transparent !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* --------- /SPLASH PAGE --------- */
+
+/* --------- PERSON PAGE --------- */
+
+/* introduction row */
+.header-intro {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.introduction-section,
+.trans-amount-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.prof-img {
+    max-height: 60px;
+    max-width: 60px;
+    margin-top: 10px;
+}
+
+.prof-desc {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.s-block {
+    width: 25px;
+}
+
+.prof-img img {
+    border-radius: 12px;
+}
+
+.trading-section .trading-block table thead th {
+    text-transform: uppercase;
+}
+
+.portfoliolist_sec .dataTables_wrapper .dataTable.portfoliolist_table tbody td a,
+.portfoliolist_sec .dataTables_wrapper .dataTable.portfoliolist_table tbody td b,
+.admincompany #activityTabs ul#activityTabList .nav-item .nav-link,
+.backLink a,
+.admincompany .user_activity_table1 a,
+.transactiontypes thead th,
+.document_table thead th,
+.trans-amount-misc,
+.info_boxes_wrapper span b,
+.icb tr th {
+    font-weight: 600;
+}
+
+.trans-amount-amt .crc-amount i,
+.trans-amount-amt .crc-amount {
+    font-weight: 400 !important;
+}
+
+.trading-section .trading-block table tbody td {
+    font-weight: 300;
+}
+
+.chart-high,
+.chart-high .highcharts-container {
+    min-height: 120px;
+    max-height: 120px;
+    min-width: 160px;
+    max-width: 160px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+/* /introduction row */
+
+.trading-section .trading-block {
+    padding: 10px 15px 15px;
+    margin: 0 auto;
+    z-index: 9999;
+}
+
+.return-analysis-box,
+.table-responsive {
+    z-index: 999;
+}
+
+.trans-amount-misc {
+    min-width: 60%;
+}
+
+/* Custom jQuery Tab */
+
+.custom-tab ul {
+    padding: 5px 0 0;
+    position: absolute;
+    border: 1px solid #dee2e6;
+    margin: 0;
+}
+
+.custom-tab ul li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.custom-tab .list {
+    padding: 10px;
+}
+
+.custom-tab .tab-content {
+    top: 70px;
+    margin: 0 auto 70px;
+    width: 95%;
+}
+
+/* /Custom jQuery Tab */
+
+/* trading row */
+
+.rotate-img,
+.link-text i {
+    padding: 3px 4px;
+}
+
+.chart-duration {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.chart-duration li {
+    line-height: 1.5;
+    margin: 0 2px;
+    padding: 0.075rem 0.30rem 0.08rem;
+}
+
+.chart-duration li:hover,
+.chart-duration li:focus,
+.chart-duration li:active,
+.chart-duration li.active {
+    border-radius: 6px;
+    background: #6ebe01;
+    color: #ffffff;
+}
+
+.trading-section .trading-block .summary-wrapper.table-responsive {
+    border: 1px solid #dee2e6;
+}
+
+.trading-summary .sum-footer .sum-link a {
+    text-decoration: underline;
+}
+
+/* /trading row */
+
+/* chart-section */
+
+.chart-section .director-holding .chart-block .chart-box .chart-wrapper {
+    max-height: 225px;
+    /*overflow-y: auto;*/
+}
+
+.chart-section .director-holding .chart-block .chart-box .chart-wrapper .pie-table {
+    height: 150px;
+}
+
+.custom-hidden .DataTables_sort_wrapper {
+    height: 20px;
+}
+
+.heading,
+.intro-heading,
+.filtering label,
+.buyback_table,
+.tabbed-tables > .table {
+    margin-bottom: 0;
+}
+
+.trade-filter,
+.trade-history-filters,
+.trade-history-filters .dtTableScroller {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.filter-label {
+    top: 1px;
+    margin-right: 5px;
+}
+
+.investment-block .index-element {
+    z-index: 10;
+    top: -40px;
+    left: 30%;
+}
+
+/* /chart-section */
+
+i.fas.buy {
+    font-size: 9px;
+    padding: 2px;
+    width: 14px;
+    height: 14px;
+    min-width: unset;
+}
+
+.my-custom-scrollbar {
+    overflow: auto;
+}
+
+.trading-section .trading-block .chart-spacer {
+    height: 5px;
+}
+
+.trading-section .trading-block .sum-footer {
+    height: 45px;
+}
+
+.trading-section .trading-block.advance-chart .chart-table {
+    margin-top: 1px;
+    overflow-y: auto !important;
+}
+
+.trading-section .trading-block table.table-hover tbody tr:hover {
+    background-color: rgba(110, 190, 1, 0.1);
+}
+
+/* Progress Bar Section */
+.holding-score {
+    margin: 5px 0;
+}
+
+.holding-score span {
+    width: 55px;
+}
+
+.holding-score .progress {
+    border-radius: 0;
+    height: 30px;
+    background: #ffffff;
+}
+
+.score-rate h4 {
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+/* Switch 2 Specific Style Start */
+
+.switch_box {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.box_2 {
+    background: transparent;
+    margin: 5px;
+}
+
+input[type="checkbox"].switch_2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #E1E9F0;
+    border-radius: 5px;
+    position: relative;
+    outline: 0;
+    cursor: pointer;
+}
+
+input[type="checkbox"].switch_2:before,
+input[type="checkbox"].switch_2:after {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    content: "";
+    background: #00adf1;
+    border: 2px solid #00adf1;
+    border-radius: 50%;
+    top: 50%;
+    left: 1px;
+}
+
+input[type="checkbox"].switch_2:before {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+input[type="checkbox"].switch_2:after {
+    -webkit-transform: scale(1) translateY(-50%);
+    -ms-transform: scale(1) translateY(-50%);
+    transform: scale(1) translateY(-50%);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+input[type="checkbox"].switch_2:checked:before {
+    left: unset;
+    right: 1px;
+}
+
+input[type="checkbox"].switch_2:checked:after {
+    left: 75px;
+}
+
+/* Switch 2 Specific Style End */
+
+.rotate {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.search-result .dataTables_wrapper .dataTables_filter {
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+
+.chart-section .md-accordion .card .card-header .toggle-section .heading {
+    line-height: 1.25rem;
+    height: 25px;
+}
+
+.dataTables_wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.scroll-wrapper1,
+.scroll-wrapper2 {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.scroll-wrapper1 {
+    border-radius: 10px;
+    max-height: 15px;
+    height: auto;
+}
+
+.scroll-wrapper1 .scroller {
+    height: 10px;
+    min-width: 2340px;
+    max-width: 2340px;
+}
+
+table.dataTable tbody td,
+table.dataTable thead th {
+    text-align: center;
+    padding: 4px 8px;
+    border: none;
+}
+
+table.dataTable tbody td:last-child,
+table.dataTable thead th:last-child {
+    border-right: none;
+}
+
+table.dataTable thead #group-heading th {
+    text-transform: uppercase;
+}
+
+table.dataTable tbody td.note,
+table.dataTable thead th.note {
+    border-radius: 0;
+    border-left: 0;
+}
+
+.portfoliolist_sec .dataTables_wrapper .dataTable.portfoliolist_table thead,
+.ranking-filter-search-result table.dataTable thead th,
+.trade-history-table table.dataTable thead th,
+table.rank-manager-search-table thead th,
+table.dataTable thead th.ui-state-default {
+    background: #787878 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+/*.trade-history-table table.dataTable thead th {*/
+/*    background: #ffffff none repeat scroll 0 0;*/
+/*    color: #787878;*/
+/*}*/
+
+table.dataTable thead #lower-head th {
+    font-size: 10px;
+    border: none;
+}
+
+table.dataTable thead th,
+table.dataTable thead #group-heading th,
+table.dataTable thead #lower-head th.ui-state-default.dt-border-lr {
+    border-right: 1px solid #ffffff;
+}
+
+table.dataTable thead th.ui-state-default .position-absolute {
+    width: 100%;
+    margin-left: -10px;
+    bottom: -7px;
+}
+
+.filter-search-switch .switcher-box {
+    max-width: unset;
+}
+
+.modalCustom .modal-body .date-adjust .md-form select {
+    max-width: 100%;
+}
+
+.filter-search-result table.dataTable thead th.tblTransaction-isCluster,
+.trade-history-table table.dataTable thead th.tblTransaction-isCluster,
+.filter-search-result table.dataTable thead th.tblsignal-SignalReason,
+.trade-history-table table.dataTable thead th.tblsignal-SignalReason {
+    max-width: 20px;
+}
+
+.chart-area {
+    max-width: 350px;
+}
+
+.md-accordion .card .card-header .heading {
+    max-width: 300px;
+}
+
+#input_starttime {
+    max-width: 150px;
+}
+
+#modalCreateAlert.modalCustom .modal-body .modal-wrapper .md-form select {
+    min-width: 245px;
+}
+
+.ranking-filter-search-result table.dataTable thead th.company_name,
+.company-trade-table table.dataTable thead th.persons,
+.filter-search-result table.dataTable thead th.company,
+.company-trade-table table.dataTable thead th.note,
+.filter-search-result table.dataTable thead th.note,
+.trade-history-table table.dataTable thead th.note {
+    min-width: 200px;
+}
+
+.adChart-heading .heading.criteria {
+    min-width: 135px;
+}
+
+.ranking-filter-search-result table.dataTable thead th.super_sector,
+.company-trade-table table.dataTable thead th.title,
+.filter-search-result table.dataTable thead th.persons,
+.trade-history-table table.dataTable thead th.persons,
+.trdsum {
+    min-width: 120px;
+}
+
+.ranking-filter-search-result table.dataTable thead th.market_cap,
+.filter-search-switch .switchStateL,
+.filter-search-switch .switchStateR {
+    min-width: 110px;
+}
+
+.ranking-filter-search-result table.dataTable thead th.bloomberg,
+.trade-history-table table.dataTable thead th.type,
+.filter-search-result table.dataTable thead th.title,
+.trade-history-table table.dataTable thead th.title {
+    min-width: 100px;
+}
+
+.document_table thead th.type,
+.return-analysis-block .custom-control-label {
+    min-width: 95px;
+}
+
+.group-post-trade,
+.trdsum2 {
+    min-width: 70px;
+}
+
+.trade-block .chart-header .switchStateL,
+.trade-block .chart-header .switchStateR {
+    min-width: 60px;
+}
+
+.company-criteria .switchStateL,
+.company-criteria .switchStateR {
+    min-width: 55px;
+}
+
+.ranking-filter-search-result table.dataTable thead th.company_name,
+.ranking-filter-search-result table.dataTable tbody td:nth-child(2),
+.filter-search-result table.dataTable tbody td.company,
+.filter-search-result table.dataTable thead th.company,
+.filter-search-result table.dataTable tbody td.persons,
+.filter-search-result table.dataTable thead th.persons,
+.trade-history-table table.dataTable tbody td.persons,
+.trade-history-table table.dataTable thead th.persons,
+.trade-history-table table.dataTable tbody td.title,
+.trade-history-table table.dataTable thead th.title {
+    text-align: left;
+}
+
+span.newfilter.filter-blue {
+    padding: 3px;
+    width: 14px;
+    height: 14px;
+    font-size: 9px;
+}
+
+span.newfilter.filter-blue {
+    background: -o-linear-gradient(#02DCFE, #155EF4);
+    background: -webkit-gradient(linear, left top, left bottom, from(#02DCFE), to(#155EF4));
+    background: linear-gradient(#02DCFE, #155EF4);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+table.dataTable.no-footer {
+    border-bottom: none;
+}
+
+.portfoliolist_sec .dataTables_wrapper .dataTable.portfoliolist_table {
+    margin-bottom: 0;
+}
+
+.trade-history-table table.dataTable {
+    border-top: 1px solid #dddddd;
+}
+
+.trade-history-table table.dataTable thead tr#group-heading th:nth-child(1),
+.trade-history-table table.dataTable thead tr#lower-head th {
+    border-top: none;
+    border-bottom: 1px solid #dddddd;
+}
+
+.trade-history-table table.dataTable thead tr#group-heading th:nth-child(1) {
+    border-left: 1px solid #dddddd;
+}
+
+.trade-history-table table.dataTable thead tr#group-heading th,
+.trade-history-table table.dataTable thead tr#lower-head th:nth-child(2),
+.trade-history-table table.dataTable thead tr#lower-head th:nth-child(12),
+.trade-history-table table.dataTable thead tr#lower-head th:nth-child(24),
+.trade-history-table table.dataTable thead tr#lower-head th:nth-child(27),
+.trade-history-table table.dataTable thead tr#lower-head th:nth-child(29) {
+    border-right: 1px solid #dddddd !important;
+}
+
+.dataTables_wrapper table.dataTable.display tbody tr.odd > .sorting_1,
+.dataTables_wrapper table.dataTable.order-column.stripe tbody tr.odd > .sorting_1,
+.dataTables_wrapper table.dataTable.stripe tbody tr.odd,
+.dataTables_wrapper table.dataTable.display tbody tr.odd {
+    background-color: #dfecfc;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    border-radius: 50%;
+    padding: 0.5rem;
+    width: 30px;
+    height: 30px;
+}
+
+/* --------- /PERSON PAGE --------- */
+
+/* --------- FILTER PAGE --------- */
+
+.custom-select {
+    line-height: 1.25;
+}
+
+.highcharts-root,
+.highcharts-container {
+    margin: auto;
+}
+
+.summary-wrapper .pie-table .highcharts-container,
+.custom-select-option {
+    width: 100% !important;
+}
+
+.data-cards .chart-duration,
+.searchHolder .autosuggest,
+.searchHolder .autosuggest ul li a,
+.news_table,
+.highcharts-root,
+.highcharts-container,
+.trading-detail .analysis-detail .return-analysis-header .heading,
+.trade-filter .trade-history-filter .sort-select,
+.trade-filter .trade-history-filter .filter-select,
+.dataTables_wrapper,
+.selected-list#filterlist,
+.selected-list-wrapper,
+#activityTabContent .tab-pane table,
+.trading-detail .analysis-detail .return-analysis-header .checkboxes,
+.cycle-slideshow img,
+.cycle-slideshow,
+.summary-wrapper .pie-table,
+.custom-select-option,
+.custom-select-option select {
+    width: 100%;
+}
+
+.summary-wrapper .pie-table {
+    /*overflow: auto !important;*/
+    background: #ffffff;
+}
+
+.searchHolder .autosuggest .as_header,
+.searchHolder .autosuggest .as_footer,
+.custom-tab .tab-content,
+.chart-area,
+.modalCustom .modal-body .md-form label,
+.searchHolder .autosuggest ul li a,
+.search-section,
+.selectExactDate,
+.nested-tables table.table table.intention_table .intention_wrapper,
+ul.selected-list li,
+.my-custom-scrollbar,
+.filter-label,
+.searchHolder,
+.chart-section .director-holding .chart-block .chart-box,
+.actions .lbl-actions .fas,
+.custom-select-option,
+.custom-select-option .ms-options-wrap {
+    position: relative;
+}
+
+.chart-area .custom-control.custom-checkbox {
+    position: absolute;
+}
+
+#over-write .waves-input-wrapper,
+.custom-tab .active,
+.trade-history-table .dataTables_wrapper .dataTables_info,
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.portfoliolist_sec .dataTables_wrapper .dataTables_info,
+.select-dropdown input[type=checkbox],
+.custom-tab .hide,
+.picker .picker__box .picker__header .picker__date-display {
+    display: none;
+}
+
+.ranking .search-result .dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_info > div,
+table.dataTable tfoot,
+.highcharts-legend,
+.highcharts-credits,
+.donut-chart .highcharts-exporting-group {
+    display: none !important;
+}
+
+.rank-manager-search .dataTables_wrapper .dataTables_filter,
+.custom-select,
+.custom-select-option select {
+    display: block !important;
+}
+
+.portfoliolist_sec .dataTables_wrapper .dataTables_filter,
+.portfoliolist_sec .dataTables_wrapper .dataTables_length {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.portfoliolist_sec .dataTables_wrapper .dataTables_filter {
+    -ms-flex-item-align: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+    margin-left: auto;
+}
+
+.portfoliolist_sec .dataTables_wrapper .dataTables_filter label {
+    margin-bottom: 0;
+}
+
+.portfoliolist_sec .dataTables_wrapper .dataTables_filter input {
+    display: unset;
+    width: auto;
+    padding: .35rem .70rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.portfoliolist_sec .dataTables_wrapper .dataTables_length .custom-select-option {
+    margin-bottom: 0;
+}
+
+.rank-manager-search .dataTables_wrapper .dataTables_filter {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.custom-select-option .ms-options-wrap > button:focus,
+.custom-select-option .ms-options-wrap > button,
+.custom-select-option .ms-options-wrap > .ms-options {
+    border: 1px solid #000000;
+}
+
+.custom-select-option .ms-options-wrap > button:focus,
+.custom-select-option .ms-options-wrap > button {
+    border-radius: 4px;
+}
+
+.custom-select-option .ms-options-wrap > button:after {
+    border-top-color: #00adf1;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.custom-select-option select option:hover,
+.custom-select-option .ms-options-wrap > .ms-options > ul li.selected label,
+.custom-select-option .ms-options-wrap > .ms-options > ul label.focused,
+.custom-select-option .ms-options-wrap > .ms-options > ul label:hover {
+    background: #00adf1;
+    color: #ffffff;
+}
+
+input[type="checkbox"].switch_2 {
+    background: #141c22;
+}
+
+.custom-switcher input[type="checkbox"].switch_2 {
+    height: 14px;
+    border-radius: 7px;
+}
+
+.date-criteria .dateSet input {
+    border-radius: 4px !important;
+    border: 1px solid #ced4da !important;
+    padding: 3px 0 3px 10px !important;
+    margin-bottom: 0 !important;
+    margin-top: -1px !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.exact-date-set input.form-control:focus {
+    -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
+}
+
+.filter-search-switch .switcher-box .switch label .lever {
+    left: 25px;
+}
+
+/*  Select  */
+
+.custom-select-option {
+    display: inline-block;
+}
+
+.custom-select-option select {
+    margin: 0;
+    line-height: 1.2;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.25rem 1.50rem 0.25rem 0.50rem;
+    outline: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* Undo the Firefox inner focus ring */
+.custom-select-option select:focus:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000000;
+}
+
+/* Dropdown arrow */
+.custom-select-option:after {
+    position: absolute;
+    top: 50%;
+    right: 0.50rem;
+    display: inline-block;
+    content: "";
+    width: 0;
+    height: 0;
+    margin-top: -.15rem;
+    pointer-events: none;
+    border-top: 0.35rem solid;
+    border-right: 0.35rem solid transparent;
+    border-bottom: 0.35rem solid transparent;
+    border-left: 0.35rem solid transparent;
+}
+
+/* Hide the arrow in IE10 and up */
+.custom-select-option select::-ms-expand {
+    display: none;
+}
+
+/* Media query to target Firefox only */
+@-moz-document url-prefix() {
+
+    /* Firefox hack to hide the arrow */
+    .custom-select-option select {
+        text-indent: 0.01px;
+        text-overflow: '';
+    }
+
+    /* <option> elements inherit styles from <select>, so reset them. */
+    .custom-select-option option {
+        background-color: #ffffff;
+    }
+}
+
+/* IE9 hack to hide the arrow */
+@media screen and (min-width: 0\0
+) {
+    .custom-select-option select {
+        z-index: 1;
+        padding: 0.5rem 1.50rem 0.5rem 1.0rem;
+    }
+
+    .custom-select-option:after {
+        z-index: 5;
+    }
+
+    .custom-select-option:before {
+        position: absolute;
+        top: 0;
+        right: 1.0rem;
+        bottom: 0;
+        z-index: 2;
+        content: "";
+        display: block;
+        width: 1.50rem;
+        background-color: #eeeeee;
+    }
+
+    .custom-select-option select:hover,
+    .custom-select-option select:focus,
+    .custom-select-option select:active {
+        color: #555555;
+        background-color: #eeeeee;
+    }
+}
+
+.transaction-criteria .form-check-inline {
+    margin-right: 0;
+}
+
+.action-block .title_b,
+.action_box .title_b {
+    margin-left: 0.25rem;
+}
+
+.action-block .title_b {
+    margin-left: 0.1rem;
+}
+
+.selected-list#filterlist {
+    /*column-count: 4;*/
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+ul.country_list_section li,
+ul.selected-list li {
+    position: relative;
+    list-style: none;
+    color: #3c3c3c;
+    width: 25%;
+}
+
+ul.country_list_section li::before,
+ul.selected-list li::before {
+    color: #00adf1;
+    content: "\2022";
+    font-size: 1.50rem;
+    padding-right: 5px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+button.btn.button {
+    padding: 0.375rem 0.75rem;
+    max-width: 250px;
+    margin: auto;
+}
+
+.modal-wrapper .custom-select-option {
+    max-width: 140px;
+    min-width: 130px;
+}
+
+.custom-checkbox .custom-control-label::before {
+    top: 0.15rem;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: none;
+    top: 1px;
+    content: "\2714";
+    left: -1.30rem;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.company-trade-table .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after,
+.trade-history .trade-history-table .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    left: -1.50rem;
+}
+
+.custom-select-option .basic-multiple-select.select-wrapper input.select-dropdown,
+.custom-select-option .basic-multiple-select {
+    margin: 0;
+    -o-text-overflow: unset;
+    text-overflow: unset;
+}
+
+.trade-filter .trade-history-filter .custom-select-option,
+.basic-multiple-select.select-wrapper input.select-dropdown {
+    font-size: 0.875rem;
+    border-bottom: none;
+    line-height: 2.0rem;
+}
+
+.investment-timeline .trade-history-filter .custom-select-option {
+    min-width: 245px;
+}
+
+.settings .basic-multiple-select.select-wrapper input.select-dropdown {
+    line-height: 2.0rem;
+}
+
+.trade-filter .trade-history-filter .custom-select-option.filter-select {
+    z-index: 9999;
+}
+
+.basic-multiple-select.select-wrapper ul.select-dropdown {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    left: 0 !important;
+    max-height: 250px !important;
+    border-radius: 5px;
+}
+
+.custom-select-option .basic-multiple-select {
+    padding: 0 8px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background: #ffffff;
+}
+
+.custom-select-option .basic-multiple-select.select-wrapper input.select-dropdown {
+    padding: 0 1.50rem 0 0;
+}
+
+.select-dropdown input[type=checkbox] + label {
+    display: inline;
+    margin: 0.20rem;
+    cursor: pointer;
+    padding: 0.20rem 1.35rem 0.20rem 0.20rem;
+}
+
+.custom-select-option .basic-multiple-select.select-wrapper ul.select-dropdown.dropdown-content li > a,
+.custom-select-option .basic-multiple-select.select-wrapper ul.select-dropdown.dropdown-content li > span {
+    padding: 0.15rem 0.50rem;
+}
+
+.select-wrapper.md-form > ul li.select-toggle-all label {
+    padding-left: 1.75rem;
+}
+
+.basic-multiple-select .select-dropdown input[type=checkbox] + label:before {
+    border: 0.10rem solid #adb5bd;
+    border-radius: 0.20rem;
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    vertical-align: middle;
+    color: transparent;
+    -webkit-transition: .1s ease-in-out;
+    -o-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+    top: -4px;
+}
+
+.basic-multiple-select ul.select-dropdown li.select-toggle-all input[type=checkbox] + label:before {
+    top: 1px;
+}
+
+.basic-multiple-select ul.select-dropdown li.disabled input[type=checkbox] + label:before {
+    top: 0;
+}
+
+.basic-multiple-select .select-dropdown input[type=checkbox]:checked + label:before {
+    content: "\2714";
+    color: #ffffff;
+    width: 15px;
+    height: 16px;
+    left: 0;
+    margin: 0;
+    padding-left: 1px;
+    padding-top: 0;
+    text-align: left;
+    font-size: 13px;
+    line-height: 12px;
+    top: 0;
+}
+
+.basic-multiple-select ul.select-dropdown li.select-toggle-all input[type=checkbox]:checked + label:before {
+    top: 5px;
+}
+
+.return-analysis-block .custom-control-label:before {
+    top: 0.15rem;
+}
+
+.custom-select:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.basic-multiple-select .select-dropdown input[type=checkbox]:disabled + label:before {
+    border-color: #aaa;
+}
+
+.basic-multiple-select .select-dropdown input[type=checkbox]:checked + label:before,
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #00adf1;
+    border-color: #00adf1;
+}
+
+.basic-multiple-select .select-dropdown input[type=checkbox]:checked:disabled + label:before {
+    background-color: #8c8c8c;
+    border-color: #8c8c8c;
+}
+
+.basic-multiple-select .select-dropdown input[type=checkbox]:disabled + label:before,
+.basic-multiple-select .select-dropdown input[type=checkbox]:checked:disabled + label:before {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.basic-multiple-select .select-dropdown input[type=checkbox]:checked + label:before,
+.basic-multiple-select .select-dropdown input[type=checkbox]:checked + label:after {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.custom-select-option select.basic-multiple-select,
+.select-wrapper span.caret {
+    display: none !important;
+}
+
+.dataTables_length select {
+    border: 1px solid #ced4da;
+    margin: auto;
+}
+
+.dataTables_length .custom-select-option:after {
+    color: #00adf1;
+    right: unset;
+    left: 5.25rem;
+}
+
+.dataTables_length .custom-select-option select {
+    max-width: 60px;
+    margin: 0 10px;
+}
+
+.rating .bars .fa.starm {
+    color: #a0a2a3;
+    font-size: x-small;
+}
+
+.dataTables_wrapper .dataTables_filter .form-control:focus {
+    border-color: #ced4da;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.tree-checkbox .treeview {
+    max-height: 240px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.tree-checkbox .treeview ul {
+    list-style: none;
+}
+
+.tree-checkbox .treeview > ul {
+    padding-left: 0 !important;
+}
+
+table.dataTable th .custom-control,
+table.dataTable td .custom-control {
+    min-height: unset;
+    /*margin-left: 8px;*/
+}
+
+.buyback .sector-criteria .tree-checkbox .treeview {
+    max-height: 250px;
+}
+
+.buyback .tree-checkbox .treeview {
+    max-height: 530px;
+}
+
+.heading.criteria {
+    min-height: 20px;
+}
+
+.actions .lbl-actions {
+    min-height: 25px;
+}
+
+.trading-detail {
+    min-height: 100px;
+}
+
+.dateSet {
+    min-height: 135px;
+}
+
+.custom-criteria-block {
+    min-height: 248px;
+}
+
+.modalCustom {
+    z-index: 999999;
+}
+
+.modalCustom .modal-dialog {
+    border-radius: 0.25rem;
+    border: 10px solid #00adf1;
+}
+
+.modalCustom .modal-dialog.modal-dialog-scrollable {
+    max-height: 450px;
+    max-width: unset;
+}
+
+.modalCustom .modal-dialog .alert-primary {
+    background-color: #d1e4f3;
+    border-color: #4d8fcb;
+}
+
+.modalCustom .modal-header {
+    border-bottom: none;
+    background: #787878;
+}
+
+.modalCustom .modal-footer {
+    border-top: none;
+}
+
+.modalCustom .modal-body .md-form select,
+.modalCustom .modal-body .md-form label,
+.modalCustom .modal-body .md-form label input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #787878;
+    /*max-width: 140px;*/
+    width: 100%;
+}
+
+.modalCustom .modal-dialog,
+.modalCustom .modal-body .md-form label input {
+    border-radius: 0.25rem;
+}
+
+.modalCustom .modal-body .md-form label input {
+    max-width: 140px;
+    min-width: 140px;
+}
+
+.modalCustom .modal-body .md-form label input:hover,
+.modalCustom .modal-body .md-form label input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom-color: #787878;
+}
+
+.modalCustom .modal-body .md-form select {
+    display: block !important;
+    border: 1px solid #787878;
+}
+
+.modalCustom .modal-body .md-form label {
+    left: -25px;
+    top: 1px;
+}
+
+.modalCustom .modal-body .md-form label input {
+    margin-left: 3px;
+    border: 1px solid #787878;
+}
+
+.modalCustom .modal-body .md-form label#lbl-starttime {
+    top: unset;
+    left: unset;
+}
+
+#modalCreateAlert .modal-wrapper .custom-select-option {
+    max-width: 245px;
+    min-width: 150px;
+}
+
+.date-adjust #input_starttime,
+.date-adjust #input_starttime ~ .input-group-append {
+    max-height: 35px;
+    height: 35px;
+    padding: 0;
+}
+
+.date-adjust #input_starttime {
+    height: 35px;
+    font-size: 0.80rem;
+}
+
+.modalCustom .modal-header .custom-close.close {
+    right: 5px;
+    top: 5px;
+    opacity: 0.8;
+}
+
+.cluster-maiden,
+.ttypes-cols {
+    padding: 0;
+    list-style: none;
+}
+
+.modalCustom .custom-control-label::after {
+    top: 0.20rem;
+}
+
+.filter-search-switch .switchStateL {
+    margin-right: -10px;
+}
+
+.company-criteria .switchStateL {
+    margin-right: 0;
+}
+
+.trade-selected-amount-all,
+.buysell-span .fas,
+.company-criteria .switchStateR,
+table.blueTable .custom-control.custom-checkbox,
+.company .switcher-block i,
+.issuer-actions .fc-action-button a i {
+    margin-left: 5px;
+}
+
+.fas.fa-bell {
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.picker .picker__box {
+    padding-top: 20px;
+}
+
+.thisIsContainer {
+    border-bottom: none;
+    width: 200px !important;
+}
+
+.thisToAnimate {
+    width: 140px;
+    -webkit-transition: width 0.5s ease-in-out 0s;
+    -o-transition: width 0.5s ease-in-out 0s;
+    transition: width 0.5s ease-in-out 0s;
+    border-bottom: none;
+}
+
+/* --------- /FILTER PAGE --------- */
+
+/* --------- RANKING PAGE --------- */
+
+.chart-area .custom-control.custom-checkbox1,
+.chart-area .custom-control.custom-checkbox3 {
+    top: 25px;
+}
+
+.chart-area .custom-control.custom-checkbox2,
+.chart-area .custom-control.custom-checkbox4 {
+    top: 90px;
+}
+
+.chart-area .custom-control.custom-checkbox1 {
+    left: 20px;
+}
+
+.chart-area .custom-control.custom-checkbox2 {
+    left: 60px;
+}
+
+.chart-area .custom-control.custom-checkbox3 {
+    right: 15px;
+}
+
+.chart-area .custom-control.custom-checkbox4 {
+    right: 55px;
+}
+
+/* --------- /RANKING PAGE --------- */
+
+/* --------- BUYBACK PAGE --------- */
+
+.tabbed-tables .table td,
+.tabbed-tables .table th,
+.nested-tables table.table td,
+.nested-tables table.table th {
+    border: none;
+}
+
+.modalCustom .modal-header .custom-close.close span {
+    font-size: 10px;
+}
+
+#activityTabContent .tab-pane .bottominfo,
+#activityTabContent .tab-pane table.display thead th,
+.rotate-img,
+ul.selected-list li,
+.return-analysis-block .custom-control-label,
+.backLink a,
+.sidenav .float-nav li a,
+table.dataTable tbody td,
+#activityTabContent .tab-pane table.display tbody td {
+    font-size: 12px;
+}
+
+table.blueTable tbody td,
+.info_boxes_wrapper span,
+.info_boxes_wrapper a,
+.delete_boxes_wrapper a,
+.delete_boxes_wrapper span,
+.modalCustom .response span,
+.sector .company-identity-tag,
+.nested-tables table.table td,
+.response span.alert-content,
+.selected-list#filterlist,
+.heading_legend,
+.nested-tables table.table table.intention_table .intention_wrapper .intention {
+    font-size: 13px;
+}
+
+.search-company table.dataTable tbody td,
+table.dataTable thead #group-heading th,
+#activityTabs ul#activityTabList li a,
+.buysell-span .fas,
+table.dataTable.display tbody td.tblTransaction-isCluster .fa-users,
+.info_boxes_wrapper li,
+.portfoliolist_sec .dataTables_wrapper .dataTable.portfoliolist_table tbody td,
+.nested-tables table.table table.intention_table .intention_wrapper .intention_detail p,
+table.dataTable.display tbody td.tblsignal-SignalReason .fa-folder-open {
+    font-size: 14px;
+}
+
+.portfoliolist table .deletebutton,
+.nested-tables table.table.buyback_table > thead th {
+    font-size: 16px;
+}
+
+.buybackterms .info_boxes_wrapper span.fas,
+.nested-tables table.table .icons .icon-wrapper .icon-img .icon {
+    font-size: 18px;
+}
+
+.nested-tables table.table table.intention_table {
+    max-width: 75%;
+    margin: 0 auto 10px;
+    border-radius: 5px;
+}
+
+.nested-tables table.table table.intention_table .intention_wrapper .intention_close {
+    position: absolute;
+    top: 2px;
+}
+
+.filter-search-switch .switchStateR,
+.nested-tables table.table table.intention_table .intention_wrapper .intention_detail {
+    margin-left: 20px;
+}
+
+.nested-tables table.table table.intention_table .intention_wrapper .intention_detail p {
+    margin: 0 auto 5px;
+}
+
+.nested-tables table.table .icons .icon-wrapper {
+    padding-right: 20px;
+}
+
+.nested-tables table.table .icons .icon-wrapper .icon-img {
+    margin: 0 5px;
+}
+
+.sector,
+.nested-tables table.table .accordion-toggle {
+    margin-right: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    padding-top: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    padding-top: 5px;
+}
+
+.info_boxes_wrapper li {
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.modalCustom .modal-body .md-form label,
+.dataTables_wrapper .dataTables_paginate,
+.dataTables_wrapper .dataTables_paginate span,
+table.dataTable thead th.ui-state-default .position-absolute,
+table.dataTable tbody td.rating .bars,
+table.dataTable tbody td.type span,
+.custom-select-option select,
+.custom-select-option .basic-multiple-select,
+.nested-tables table.table thead tr th:nth-child(1),
+.nested-tables table.table thead tr td:nth-child(1),
+.modalCustom .modal-header .custom-close.close,
+.search-result .dataTables_filter label,
+.modalCustom .modal-body .md-form label,
+.issuer-actions .fc-action-button a,
+.switch_box,
+i.fas.buy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+table.dataTable tbody td.rating .bars,
+table.dataTable tbody td.type span,
+.switch_box,
+i.fas.buy,
+table.dataTable thead th.ui-state-default .position-absolute,
+.dataTables_wrapper .dataTables_paginate,
+.dataTables_wrapper .dataTables_paginate span,
+.issuer-actions .fc-action-button a,
+.custom-select-option select,
+.custom-select-option .basic-multiple-select,
+.nested-tables table.table thead tr th:nth-child(1),
+.nested-tables table.table thead tr td:nth-child(1),
+.modal-open .modal.show,
+.dataTables_wrapper .dataTables_length label,
+.search-result .dataTables_filter label {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.trade-history-table table.dataTable thead th.persons,
+.trade-history-table table.dataTable tbody td.persons,
+.trade-history-table table.dataTable thead th.title,
+.trade-history-table table.dataTable tbody td.title {
+    -webkit-box-pack: start;
+    /*noinspection CssInvalidPropertyValue*/
+    -ms-flex-pack: start;
+    justify-content: start;
+}
+
+.dataTables_wrapper .dataTables_paginate,
+.search-result .dataTables_wrapper .dataTables_filter {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+i.fas.buy,
+.modal-open .modal.show,
+table.dataTable tbody td.type span,
+table.dataTable tbody td.rating .bars,
+table.dataTable thead th.ui-state-default .position-absolute {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.rand .custom-select-option .basic-multiple-select {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.dataTables_length select,
+.dataTables_wrapper .dataTables_length label,
+.custom-select-option .basic-multiple-select.select-wrapper .filtrable {
+    display: -ms-inline-flexbox !important;
+    display: -webkit-inline-box !important;
+    display: inline-flex !important;
+}
+
+.dataTables_wrapper,
+.modal-open .modal.show,
+.search-result .dataTables_wrapper .dataTables_filter,
+.modalCustom .modal-body .md-form label#lbl-starttime {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+/* --------- /BUYBACK PAGE --------- */
+
+/* --------- COMPANY PAGE --------- */
+.intro-heading {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.md-accordion .card .card-body {
+    padding: 1.0rem 0;
+}
+
+table.display td a span.fa-file-alt,
+.intro-sec .m-cap,
+.intro-sec .url a {
+    font-size: 20px;
+}
+
+/*.custom-select-option select,*/
+.director-title .title-col b,
+.director-data .data-col a,
+.link-text .more-wrapper .more-info,
+.news_table th,
+ul.selected-list li,
+#activityTabContent .tab-pane table.display thead th,
+.nested-tables table.table th,
+.rank-editor-heading span,
+.sidenav .float-nav li a,
+table.blueTable thead th,
+.intro-heading,
+.intro-sec .m-cap,
+.intro-sec .url a,
+.rank-row-head .rank-col,
+.searchHolder .autosuggest ul li a,
+.nested-tables table.table table.intention_table .intention_wrapper .intention_detail p {
+    font-weight: bold;
+}
+
+span.newfilter.filter-blue,
+.modalCustom .modal-header,
+.modalCustom .modal-header .custom-close.close,
+.nested-tables table.table.buyback_table > thead th,
+.searchHolder .inputStringUser,
+.intro-heading,
+.intro-sec .m-cap,
+.intro-sec .url a,
+.sector .company-sector,
+.sector .company-identity {
+    color: #ffffff;
+}
+
+.sector .company-identity-tag {
+    color: #1669a0;
+}
+
+.tabbed-tables .toggler {
+    width: 18px;
+    height: 19px;
+    margin-right: 5px;
+}
+
+.sector-img {
+    width: 50px;
+    height: 50px;
+}
+
+.sidenav .float-nav,
+table.blueTable thead th:first-child,
+.searchHolder .autosuggest ul,
+.data-cards-wrapper.tab-padding,
+.tabbed-tables > .table th {
+    padding: 0;
+}
+
+.issuer-actions .fc-action-button a {
+    color: #6ebe01;
+}
+
+.issuer-actions .fc-action-button a:hover,
+.issuer-actions .fc-action-button a:focus,
+.issuer-actions .fc-action-button a:active,
+.issuer-actions .fc-action-button a:hover i,
+.issuer-actions .fc-action-button a:focus i,
+.issuer-actions .fc-action-button a:active i {
+    color: #00adf1;
+}
+
+.ranks-border {
+    border: 2px solid #00adf1;
+}
+
+.rank-editor-heading {
+    background: #ffaec9;
+    display: block;
+    border-bottom: 2px solid #00adf1;
+}
+
+.left-rank-editor {
+    height: 260px;
+}
+
+.trade-directors {
+    height: 218px;
+    overflow-y: auto;
+}
+
+.commentary-editor {
+    resize: none;
+}
+
+.commentary-editor:hover,
+.commentary-editor:focus,
+.commentary-editor:active {
+    outline: none;
+}
+
+.trade-directors .trd-row .custom-control.custom-checkbox.custom-checkbox1 {
+    top: 2px;
+}
+
+.issuer-actions .fc-action-button {
+    margin-left: 10px;
+}
+
+.rank-details {
+    min-height: 125px;
+    margin-top: 10px;
+}
+
+.border-top-custom {
+    border-top: 2px solid #00adf1;
+}
+
+.chart-section .director-holding .chart-block .chart-box .chart-wrapper,
+.chart-section .chart-block,
+table.dataTable tbody td.rating .bars,
+table.dataTable tbody td.type span,
+.custom-select-option,
+.search-filter.heading {
+    height: 100%;
+}
+
+.modalCustom .modal-body .md-form select,
+.modalCustom .modal-body .md-form label,
+.modalCustom .modal-body .md-form label input,
+button.btn.button,
+.search-result .dataTables_filter input,
+.expiryField input,
+.select-wrapper input.select-dropdown,
+.date-criteria .dateSet .md-form input,
+.custom-select-option .basic-multiple-select.select-wrapper input.select-dropdown,
+.custom-select-option .basic-multiple-select,
+.custom-select-option select {
+    height: 35px;
+}
+
+.rand .custom-select-option .basic-multiple-select.select-wrapper input.select-dropdown,
+.rand .select-wrapper input.select-dropdown,
+.custom-select-option .basic-multiple-select,
+.rand .custom-select-option {
+    height: unset;
+}
+
+.rand .custom-select-option .basic-multiple-select {
+    border: 1px solid;
+    padding: 0;
+}
+
+.rand .basic-multiple-select.select-wrapper ul.select-dropdown {
+    display: block !important;
+    opacity: 1 !important;
+    position: relative !important;
+    top: unset !important;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    margin-bottom: 2px;
+}
+
+.rand .custom-select-option .basic-multiple-select.select-wrapper input.select-dropdown {
+    padding: 0 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.person .modalCustom .modal-dialog,
+.company .modalCustom .modal-dialog {
+    border: 5px solid #00adf1;
+}
+
+.company .expiry-checkbox .custom-checkbox .custom-control-label::before,
+.company .expiry-checkbox .custom-checkbox .custom-control-label::after {
+    left: unset;
+    right: -1.5rem;
+}
+
+.company .expiry-checkbox .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    right: -1.70rem;
+}
+
+.director-title,
+.director-data {
+    margin: auto;
+    background-color: transparent !important;
+}
+
+.data-col.holding-person {
+    max-width: 150px;
+}
+
+.buyer-hold span {
+    background: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 2px 4px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+span.holding-percent {
+    max-width: 50px;
+    min-width: 45px;
+}
+
+/*.cols-half {*/
+/*    width: 7.8% !important;*/
+/*}*/
+
+.director-title input,
+.cols-half input {
+    display: none !important;
+}
+
+/*.director-data .data-col {*/
+/*    position: absolute;*/
+/*    left: 35px;*/
+/*}*/
+
+.director-data span.newfilter.filter-blue {
+    position: relative;
+    left: 10px;
+    top: 0;
+    z-index: 999;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 4px;
+
+}
+
+.sidenav {
+    width: 145px;
+    position: fixed;
+    z-index: 9999;
+    top: 35%;
+    left: 0;
+    background: #ebebeb;
+    overflow-x: hidden;
+    padding: 3px 0;
+    border-right: 1px solid #ebebeb;
+}
+
+.sidenav .float-nav {
+    list-style: none;
+    margin: 0;
+}
+
+.sidenav .float-nav li {
+    border-top: 1px dotted #cccccc;
+}
+
+.sidenav .float-nav li:first-child {
+    border-top: 1px dotted transparent;
+}
+
+.sidenav .float-nav li a {
+    padding: 5px 5px 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidenav .float-nav li a:hover {
+    color: #064579;
+}
+
+
+#sidetree .treeview li {
+    margin-bottom: 0 !important;
+}
+
+#nav a {
+    border: 1px solid #cccccc;
+    background: #ea0;
+    text-decoration: none;
+    padding: 3px 15px;
+    height: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+}
+
+#nav a.activeSlide {
+    background: #ea0;
+    display: none;
+}
+
+#nav a:focus {
+    outline: none;
+}
+
+#nav a span {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    width: 7px;
+    margin-top: 37px;
+}
+
+.directors-tree-right #nav {
+    background-image: none !important;
+    float: right;
+    width: 65px !important;
+}
+
+.colls {
+    float: left;
+    padding: 6px 7px;
+    width: 130px;
+}
+
+.blue {
+    background: #dfecfc !important;
+}
+
+.white {
+    background: #ffffff;
+}
+
+.treeheader {
+    margin-top: 25px;
+}
+
+.directors-tree-right #nav {
+    padding: 0 !important;
+    margin: 10px 0 0 0 !important;
+}
+
+.selected-trades b {
+    font-size: 11px;
+    color: #00adf1;
+}
+
+.selected-trades {
+    float: left;
+    font-weight: bold;
+    margin-right: 35px;
+}
+
+.source img {
+    max-width: 17px !important;
+}
+
+.bars {
+    text-align: center;
+    display: block;
+}
+
+#source-header {
+    width: 55px !important;
+}
+
+#title-header {
+    width: 45px;
+}
+
+.bars img {
+    width: 70px;
+    display: inline-block;
+}
+
+#rating-header {
+    width: auto !important;
+}
+
+.source {
+    text-align: center;
+    max-width: 20px;
+}
+
+.director-title .abs-span {
+    margin-top: 2px;
+}
+
+.abs-span {
+    position: absolute;
+    font-size: 11px;
+    display: block
+}
+
+.director-title {
+    font-size: 12px;
+    padding: 2px;
+}
+
+.cols-1 {
+    width: 23.5%;
+    padding-left: 15px;
+}
+
+.cols-4 {
+    width: 54%;
+}
+
+.cols-2 {
+    width: 100%;
+}
+
+.director-data {
+    position: relative;
+    font-size: 12px;
+    padding: 1px 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.director-data .cols-half {
+    width: 13.8%;
+    text-align: right;
+}
+
+.director-data .cols-half {
+    display: none;
+}
+
+.director-data .data-col {
+    height: 20px;
+    color: #6d6c6c !important;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/*.director-data .cols-2 {*/
+/*    width: 75.8%;*/
+/*}*/
+
+.director-title .title-col {
+    color: #333333;
+    padding-left: 6px;
+}
+
+.director-data .data-col b,
+.director-title .title-col .title-text b {
+    margin-left: 5px;
+}
+
+.director-data .data-col b {
+    display: inline-block;
+    max-width: 100px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#nav a:first-of-type,
+.first-card,
+.first-card,
+.first-card .title-col {
+    background: #a29f9f;
+}
+
+#nav a:nth-of-type(2),
+.sec-card {
+    background: #24CBE5;
+}
+
+#nav a:nth-of-type(3),
+.thrd-card,
+.thrd-card .title-col {
+    background: #00adf1;
+}
+
+.cards-lables .col:first-of-type {
+    font-size: 14px;
+    color: #6d6c6c;
+    font-weight: bold;
+}
+
+.director-title .title-col b {
+    color: #6d6c6c;
+}
+
+.row .col input[type='checkbox'] {
+    margin: 0;
+    position: relative;
+    top: 2px;
+    left: -4px;
+}
+
+.first-col {
+    padding-left: 6px;
+}
+
+.card-title-bar {
+    position: absolute;
+    right: 0;
+    width: 25px;
+    height: 100%;
+    cursor: pointer;
+    top: 0;
+}
+
+table.blueTable thead {
+    background: #1C6EA4;
+    background: -o-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#5592bb), color-stop(66%, #327cad), to(#1C6EA4));
+    background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    border-bottom: 2px solid #444444;
+}
+
+table.blueTable thead th {
+    font-size: 0.85rem;
+    color: #ffffff;
+    border-left: 2px solid #D0E4F5;
+    padding: 0.1rem 1.0rem;
+}
+
+table.blueTable thead th:first-child {
+    border-left: none;
+}
+
+table.blueTable tbody td {
+    padding: 0.25rem 0.50rem;
+}
+
+table.blueTable td {
+    border: 2px solid #aaaaaa;
+}
+
+table.blueTable tbody tr:nth-child(odd) {
+    background: #eeeeee;
+}
+
+table.blueTable tbody tr:nth-child(even) {
+    background: #D0E4F5;
+}
+
+table.blueTable .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    left: -1.5rem;
+    font-weight: normal;
+}
+
+.searchHolder .input-group-text {
+    background: #1a1d21 5px;
+    border: 2px solid #0f6d93;
+    border-right: none;
+}
+
+.searchHolder .inputStringUser {
+    background: #1a1d21 5px;
+    border: 2px solid #0f6d93;
+    border-left: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 1.0rem;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.searchHolder .inputStringUser:focus {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.searchHolder:hover,
+.searchHolder:focus,
+.searchHolder:active {
+    -webkit-box-shadow: 0 0 0 0.20rem rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 0 0.20rem rgba(0, 0, 0, 0.75);
+    border-radius: 0.25rem;
+    -webkit-transition: -webkit-border-radius .25s ease-in-out, -webkit-box-shadow .25s ease-in-out;
+    -o-transition: border-radius .25s ease-in-out, box-shadow .25s ease-in-out;
+    -webkit-transition: border-radius .25s ease-in-out, -webkit-box-shadow .25s ease-in-out;
+    transition: border-radius .25s ease-in-out, -webkit-box-shadow .25s ease-in-out;
+    transition: border-radius .25s ease-in-out, box-shadow .25s ease-in-out;
+    transition: border-radius .25s ease-in-out, box-shadow .25s ease-in-out, -webkit-box-shadow .25s ease-in-out;
+}
+
+.searchHolder .autosuggest {
+    position: absolute;
+    top: 40px;
+    background: url(../../images/as_pointer.png) no-repeat top;
+    padding: 10px 0 0 0;
+    z-index: 9999999;
+    display: none;
+}
+
+.searchHolder .autosuggest ul {
+    list-style: none;
+    overflow: hidden;
+    background-color: #787878;
+    border: 3px solid rgba(91, 148, 35, 1) !important;
+    margin: -6px 0 -4px 0;
+}
+
+.searchHolder .autosuggest ul li a {
+    color: #cccccc;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 1px 10px;
+}
+
+.searchHolder .autosuggest ul li a:hover,
+.searchHolder .autosuggest ul li a:focus,
+.searchHolder .autosuggest ul li a:active,
+.searchHolder .autosuggest ul li.as_highlight a {
+    background: #00adf1 url(http://dev3.smartinsider.com/members/autosuggest/css/img_inquisitor/hl_corner_br.png) no-repeat bottom right;
+    color: #ffffff;
+}
+
+.searchHolder .autosuggest ul em {
+    color: #6ebe01;
+}
+
+.searchHolder .autosuggest .as_header,
+.searchHolder .autosuggest .as_footer {
+    height: 6px;
+    padding: 0 6px;
+    background: url(../../images/ul_corner_tr.png) no-repeat top right;
+    overflow: hidden;
+    display: none;
+}
+
+#activityTabs {
+    padding: 3px 4px;
+    border: 1px solid #aaaaaa;
+    background: #ffffff url(../../images/ui-bg_flat_40x100.png) 50% 50% repeat-x;
+    color: #555555;
+}
+
+#activityTabs ul#activityTabList {
+    border: 1px solid #aaaaaa;
+    background: #343434 url(../../images/ui-bg_highlight1x100.png) 50% 50% repeat-x;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+
+#activityTabs ul#activityTabList .nav-item {
+    margin: 0 0.25rem -1px 0;
+}
+
+#activityTabs ul#activityTabList .nav-item .nav-link {
+    border: 1px solid #d3d3d3;
+    background: #e6e6e6 url(../../images/ui-bg_glass_1x400.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #555555;
+    outline: none;
+}
+
+#activityTabs ul#activityTabList .nav-item.show .nav-link,
+#activityTabs ul#activityTabList .nav-link.active {
+    color: #000000;
+    background: #ffffff 50% 50% repeat-x;
+    border-color: #dee2e6 #dee2e6 #ffffff;
+}
+
+#activityTabContent .tab-pane table.display thead th {
+    padding: 4px 10px 6px 4px;
+    border-bottom: 1px solid #909090;
+}
+
+#activityTabContent .tab-pane .bottominfo {
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    margin: 20px 0 10px;
+    padding: 15px;
+}
+
+.person #holdings-chart .highcharts-legend,
+.search-company .dataTables_wrapper .dataTables_filter,
+#activityTabContent .tab-pane .dataTables_wrapper .dataTables_filter {
+    display: block !important;
+    margin-left: auto;
+}
+
+.search-company .dataTables_wrapper .dataTables_filter {
+    margin-bottom: 10px;
+}
+
+.person .trade-history-table table.dataTable .custom-control.custom-checkbox.custom-checkbox1 .custom-control-label::before,
+.person .trade-history-table table.dataTable .custom-control.custom-checkbox.custom-checkbox1 .custom-control-input:checked ~ .custom-control-label::after {
+    left: -1.25rem;
+}
+
+.blog-editor-rank-manager {
+    height: 260px;
+    overflow-y: auto;
+}
+
+.blog-editor-rank-manager .bl-row .bl-col0 a {
+    color: #00adf1;
+}
+
+.blog-editor-rank-manager .bl-row .bl-col1,
+.blog-editor-rank-manager .bl-row .bl-col2 {
+    color: #a9a9a9;
+}
+
+.search-company .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    left: -1.5rem;
+    top: 0;
+}
+
+.rankmanager .rank-manager-search .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    font-weight: normal;
+    left: -1.5rem;
+    top: 1px;
+}
+
+.alert-frequency .custom-radio .custom-control-label::before,
+.alert-frequency .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    top: 0.15rem;
+}
+
+.panel-item .form-check .custom-radio .custom-control-label::before,
+.panel-item .form-check .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    top: 0.40rem;
+}
+
+.cycle-slide-active {
+    top: 20px !important;
+    left: unset !important;
+    right: 10px !important;
+}
+
+/* --------- /COMPANY PAGE --------- */
+.hiddenRow {
+    padding: 0 !important;
+}
+
+.empty_area {
+    background-color: #dfecfc;
+    color: #555555;
+}
+
+/* Footer */
+
+footer {
+    background: #787878;
+    padding: 20px 25px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+footer .copyright a:hover,
+footer .copyright a:focus,
+footer .copyright a:active {
+    color: #00adf1;
+    text-decoration: none;
+}
+
+/* /Footer */
+
+.trading-section .trading-block table::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.trading-section .trading-block table::-webkit-scrollbar {
+    width: 5px;
+    background-color: #f5f5f5;
+}
+
+.trading-section .trading-block table::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .3);
+    background-color: #555555;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.trading-section .trading-block table::-moz-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.trading-section .trading-block table::-moz-scrollbar {
+    width: 5px;
+    background-color: #f5f5f5;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.trading-section .trading-block table::-moz-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .3);
+    background-color: #555555;
+}
+
+.collapsible-block .md-accordion .card {
+    border-bottom: 1px solid transparent;
+}
+
+.collapsible-block table.table thead th,
+.collapsible-block table.table tbody td {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.collapsible-block table.table tbody td,
+.collapsible-block table.table thead th,
+.tabbed-tables .table td,
+.tabbed-tables .table th,
+.nested-tables table.table td,
+.nested-tables table.table th {
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+}
+
+.sidenav .float-nav,
+table.blueTable thead th:first-child,
+.searchHolder .autosuggest ul,
+.data-cards-wrapper.tab-padding,
+.tabbed-tables > .table th {
+    padding: 0;
+}
+
+.collapsible-block .trading-section .trading-block .summary-wrapper table.table thead th,
+.collapsible-block .trading-section .trading-block .summary-wrapper table.table tbody td {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.collapsible-block .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: unset;
+}
+
+.collapsible-block .checkboxes .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    font-weight: normal;
+}
+
+.custom-select-option select,
+ul.selected-list li,
+#activityTabContent .tab-pane table.display thead th,
+.action_box label:hover,
+.action_box label:focus,
+.action_box label:active,
+.action_box:hover,
+.action_box:focus,
+.action_box:active,
+.actions .lbl-actions,
+.link-text .more-desc,
+.link-text .more-company {
+    cursor: pointer;
+}
+
+table.dataTable.company-trade-table thead th,
+table.dataTable.company-trade-table tbody td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.collapsible-block .trading-detail .analysis-detail .return-analysis-block.return-analysis-left table.table thead th,
+.collapsible-block .trading-detail .analysis-detail .return-analysis-block.return-analysis-right table.table thead th,
+.collapsible-block .trading-detail .analysis-detail table.table thead th,
+.collapsible-block .trading-detail .analysis-detail table.table tbody th,
+.collapsible-block .trading-detail .analysis-detail table.table thead td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.collapsible-block .trading-detail .analysis-detail .return-analysis-block table.table thead th {
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+.collapsible-block .trading-detail .analysis-detail .return-analysis-block.return-analysis-left table.table tbody td,
+.collapsible-block .trading-detail .analysis-detail .return-analysis-block.return-analysis-right table.table tbody td {
+    padding: 10px 5px;
+}
+
+table.dataTable.company-trade-table thead #group-heading th .custom-control.custom-checkbox {
+    position: relative;
+    top: -10px;
+    left: 5px;
+}
+
+.news_table {
+    border: 2px solid;
+    margin-top: 20px;
+}
+
+.news_table th,
+.news_table td {
+    border-bottom: 1px solid;
+    padding: 5px 6px;
+}
+
+.news_table tr.odd,
+.news_table tr.even {
+    border-bottom: 1px solid #D6D4D4;
+    border-top: 1px solid #D6D4D4;
+}
+
+.news_table tr .form-check {
+    padding-left: 0.50rem;
+}
+
+.delete_boxes_wrapper span,
+.info_boxes_wrapper span {
+    margin-bottom: 1.0rem;
+}
+
+.info_boxes_wrapper .rand .custom-select-option span,
+.info_boxes_wrapper span.fas {
+    margin-bottom: 0;
+}
+
+.country_placeholder_chart {
+    position: relative;
+    width: 430px;
+    height: 250px;
+    margin: 20px 0;
+}
+
+ul.country_list_section {
+    padding-left: 20px;
+}
+
+ul.country_list_section li {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ul.country_list_section li::before {
+    top: -25px;
+    left: -20px;
+    font-size: 3.25rem;
+}
+
+.download-info {
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.icb td {
+    border: 1px solid #000000;
+    padding: 0.2em 0.5em;
+}
+
+.icb tbody {
+    border-left: 2px solid #000000;
+}
+
+.icb td a .far {
+    margin-right: 5px;
+}
+
+.supersectoreven {
+    background: #eaebff;
+}
+
+.sectorodd {
+    background: #dfecfc;
+}
+
+.sectoreven {
+    background: #d2e4fb;
+}
+
+table.stars .star1 {
+    color: #a0a2a3;
+}
+
+table.stars .star2:nth-child(-n+1),
+table.stars .star3:nth-child(-n+2),
+table.stars .star4:nth-child(-n+3),
+table.stars .star5:nth-child(-n+4),
+table.stars .star6:nth-child(-n+5) {
+    color: #ffa500 !important;
+}
+
+.settings button.btn.button {
+    height: 45px;
+}
+
+div.fileUpload {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+input.upload {
+    position: absolute;
+    text-align: right;
+    -moz-opacity: 0;
+    filter: alpha(opacity:0);
+    opacity: 0;
+    z-index: 2;
+}
+
+.create_portfolio {
+    height: 25px;
+}
+
+.indices,
+.indices_wrapper,
+.indices-buttons {
+    max-height: 200px;
+    min-height: 200px;
+}
+
+
+.indices_wrapper {
+    border-width: 3px !important;
+}
+
+.indices_wrapper span.index-link.active {
+    background: #00adf1;
+}
+
+.indices_wrapper span:nth-of-type(2n+1) {
+    background: #e8e8e8;
+}
+
+.indices_wrapper span:nth-child(even) {
+}
+
+.indices_wrapper span label {
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+span.score-card-sell {
+    margin-left: 50px;
+}
+
+.score-card-buy span {
+    color: #6ebe01;
+}
+
+.score-card-sell span {
+    color: #f44236;
+}
+
+.companysearch-section,
+.personsearch-section {
+    padding-left: 1.50rem !important;
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+.companysearch-section ul,
+.personsearch-section ul {
+    padding-left: 1.0rem !important;
+}
+
+
+.filters-wrap .filter-wrapper #time-selections li a {
+    display: inline-block;
+    padding: 4px 7px;
+    font-size: 12px;
+}
+
+.filters-wrap .filter-wrapper #time-selections li a {
+    border: 1px solid #555555;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.filters-wrap .filter-wrapper .slide-label {
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+
+.filters-wrap .filter-wrapper #time-selections ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.filters-wrap .filter-wrapper #time-selections li {
+    margin-right: 0 !important;
+}
+
+.filters-wrap .filter-wrapper #time-selections li:hover a,
+.filters-wrap .filter-wrapper #time-selections .active_date a {
+    background: #6ebe01 !important;
+    color: #ffffff !important;
+}
+
+.filters-wrap .filter-wrapper #time-options li {
+    height: 25px;
+    display: inline-block;
+}
+
+.settings button.btn.button {
+    height: 45px;
+}
+
+.modal-open .modal-backdrop.show {
+    /*z-index: unset;*/
+    opacity: 0.75;
+}
+
+.modal-open .modal.show {
+    z-index: 99999;
+}
+
+.modal-open .modal.show .modal-dialog {
+    z-index: 999999;
+}
+
+.tooltip {
+    position: unset;
+    opacity: 1;
+}
+
+.tooltipster-content {
+    overflow: unset;
+}
+
+.tooltip_content {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    min-height: 100px;
+    font-size: 0.85rem;
+}
+
+.tooltip_templates {
+    display: none;
+}
+
+.tooltipster-base {
+    width: auto !important;
+    height: auto !important;
+}
+
+.tooltipster-base .tooltipster-box {
+    background: #ffffff !important;
+    border: 5px solid #00adf1 !important;
+}
+
+.tooltipster-base .tooltipster-box .tooltipster-content {
+    color: #555 !important;
+    padding: 6px 10px;
+}
+
+.tooltipster-base .tooltipster-arrow {
+    margin: 0 !important;
+    top: 45% !important;
+    left: -2px !important;
+}
+
+.tooltipster-base .tooltipster-arrow .tooltipster-arrow-border {
+    border-right-color: #00adf1 !important;
+}
+
+.tooltipster-base .tooltipster-arrow .tooltipster-arrow-background {
+    border-right-color: #ffffff !important;
+}
+
+.tooltip_content .person-img {
+    max-height: 125px;
+    max-width: 125px;
+    height: 100%;
+    width: 100%;
+}

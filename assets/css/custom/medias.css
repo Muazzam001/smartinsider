@@ -1,0 +1,1466 @@
+/* DESKTOP FIRST MEDIA QUERIES */
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1280px) {
+    .sidenav {
+        display: none;
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+    .trading-section .trading-block .summary-wrapper table.table thead th,
+    .adChart-info .adChart-msg,
+    .company .switchStateL,
+    .company .switchStateR,
+    .return-analysis-block .sm-heading,
+    .adChart-info .adChart-msg,
+    .collapsible-block .trading-detail .analysis-detail table.table thead th {
+        font-size: 0.60rem !important;
+    }
+
+    span.multiple-header {
+        font-size: 0.75rem !important;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu .dropdown-item a .dropdown-item-link.special {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 1023.98px) {
+
+    .thisIsContainer {
+        padding-right: 0 !important;
+    }
+
+    .heading.criteria,
+    .main-title {
+        font-size: 0.90rem !important;
+    }
+
+    .navbar .nav-item .nav-link .usr-icon i,
+    .custom-nav.navbar.navbar-dark #usrname-menu span,
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item .nav-link.text-link {
+        font-size: 1.0rem;
+    }
+
+    .noBuybackTooltip,
+    .insiderStartInfo,
+    .rankInfo,
+    button.btn.button,
+    .dropdown-content li > a,
+    .modal-inner-head,
+    .dropdown-content li > span,
+    .select-wrapper.md-form > ul li.select-toggle-all label,
+    .blog-editor,
+    .selectPermDel label,
+    .expiryField input,
+    .confirm-del .heading,
+    .rank-editor-heading,
+    .action-buttons .info-text,
+    .nested-tables table.table.yearly_table > thead th,
+    .modalCustom .modal-title,
+    .trade-directors .trd-row,
+    .right-top-rank,
+    .cards-section .card p,
+    .date-criteria .dateSet .md-form input,
+    .custom-select-option select,
+    .custom-select-option .basic-multiple-select.select-wrapper input.select-dropdown,
+    .custom-select,
+    .custom-select-option .basic-multiple-select,
+    .basic-multiple-select .select-wrapper input .select-dropdown,
+    .alert-text,
+    .action_box,
+    .action_box label,
+    .action-block .title_b,
+    .action_box .title_b,
+    .filtering label,
+    .trade-filter .trade-history-filter .filter-label,
+    ul.gj-list-bootstrap li [data-role="display"],
+    .custom-select-option .ms-options-wrap > button,
+    .custom-select-option .ms-options-wrap > button:focus,
+    .trade-filter .trade-history-filter .custom-select-option,
+    .custom-switcher.switcher-box span {
+        font-size: 0.75rem !important;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .sidenav {
+        display: none;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-brand img {
+        max-width: 160px;
+    }
+
+    .adChart-info .adChart-msg {
+        font-size: 0.45rem !important;
+        color: #000000;
+    }
+
+    #mobile-search-item {
+        max-width: 240px;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item.nav-home > .nav-link > i, #desktop-search-item {
+        display: none !important;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item {
+        border-top: 1px solid #2FAEE2;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item > .nav-link, .custom-nav.navbar.navbar-dark {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item.nav-home {
+        border-top: none;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-toggler,
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item .nav-link.text-link,
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item.nav-home > .nav-link > span,
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item.settings > .nav-link.dropdown-toggle::after,
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu .dropdown-item .dropdown-item-heading {
+        font-size: 1.0rem;
+        font-weight: bold;
+        color: #393C40;
+    }
+
+    .custom-nav.navbar.navbar-dark #usrname-menu .greet {
+        padding-right: 5px;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops {
+        position: relative !important;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu.show {
+        position: static !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .trade-filter {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .dataTables_wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .search-result .dataTables_wrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+
+    .modalCustom .modal-body .md-form label,
+    .modalCustom .modal-body .md-form label input,
+    .modalCustom .modal-body .md-form select {
+        max-width: unset !important;
+    }
+
+    .w-50.trade-filter,
+    .modalCustom .modal-body .md-form label,
+    .modalCustom .modal-body .md-form label input,
+    .modalCustom .modal-body .md-form select,
+    .dataTables_wrapper .dataTables_info,
+    .dataTables_wrapper .dataTables_paginate,
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item,
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item > .nav-link,
+    .dataTables_wrapper .dataTables_filter,
+    .search-result .dataTables_wrapper .dataTables_length {
+        width: 100% !important;
+    }
+
+    #mobile-search-item,
+    .w-50.trade-filter,
+    .dataTables_wrapper .dataTables_filter,
+    .dataTables_wrapper .dataTables_info,
+    .search-result .dataTables_wrapper .dataTables_length,
+    .dataTables_wrapper .dataTables_paginate {
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+
+    .dataTables_wrapper .dataTables_length {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .dataTables_wrapper .dataTables_filter {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        margin-bottom: 10px !important;
+    }
+
+    .search-result .dataTables_wrapper .dataTable.search-result-table,
+    .dataTables_wrapper .dataTable.trade-table {
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+
+
+    .search-result .dataTables_wrapper .dataTable.search-result-table,
+    .dataTables_wrapper .dataTable.trade-table {
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+
+    .dataTables_wrapper .dataTables_paginate {
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+        -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+        order: 5;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item > .nav-link,
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu.show,
+    #mobile-search-item,
+    .dataTables_wrapper .dataTables_info,
+    .dataTables_wrapper .dataTables_paginate {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+
+    ul.selected-list li {
+        width: 45% !important;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu .dropdown-item a,
+    .link-text,
+    .dashboard-intro p,
+    .company .switchStateL,
+    .company .switchStateR {
+        font-size: 0.75rem;
+    }
+
+    .search-filter.heading .transaction-detail {
+        font-size: 0.85rem !important;
+    }
+
+    .tabbed-tables i,
+    .navbar .nav-item .nav-link .usr-icon i,
+    .custom-nav.navbar.navbar-dark #usrname-menu span {
+        font-size: 1.0rem;
+    }
+
+    .custom-nav.navbar.navbar-dark #usrname-menu span {
+        font-weight: bold;
+    }
+
+    .custom-checkbox .custom-control-label {
+        padding-top: 1px;
+    }
+
+    .dateSet .form-check.form-check-inline.w-100 {
+        width: 48% !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 35px;
+    }
+
+    .dateSet .form-check.form-check-inline.w-33 {
+        width: 31% !important;
+        margin: unset;
+    }
+
+    .filter-search-switch .switchStateL,
+    .filter-search-switch .switchStateR {
+        min-width: 100px !important;
+    }
+
+    .company-criteria .switchStateR {
+        margin-left: 10px !important;
+    }
+
+    .buyback .trade-history-filters.w-50, .jumbotron .dashboard-intro p.w-50 {
+        width: 100% !important;
+    }
+
+    .custom-radio .custom-control-label {
+        padding-top: 4px;
+    }
+
+    .modalCustom .modal-body .md-form label {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        left: 0 !important;
+        height: 55px !important;
+    }
+
+    .mt-n0 {
+        margin-top: 0;
+    }
+
+    .cards-section .card-wrapper .card {
+        min-height: 425px;
+    }
+
+    span.score-card-buy {
+        margin-left: 5px !important;
+    }
+
+    .fas.fa-2x, .far.fa-2x {
+        font-size: 1.5em;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .tooltipster-base .tooltipster-arrow {
+        display: none;
+    }
+
+    .adChart-heading .heading.criteria {
+        min-width: unset !important;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-toggler {
+        font-size: 1.0rem;
+        padding: 0.25rem 0.50rem;
+    }
+
+    .header-intro {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .chart-section .chart-block {
+        padding: 10px;
+    }
+
+    .chart-section .chart-block-com {
+        margin: 10px -5px !important;
+    }
+
+    .chart-section .chart-block-com.trade-block {
+        margin-top: 0 !important;
+    }
+
+    .selected-list#filterlist {
+        -webkit-column-count: 2 !important;
+        -moz-column-count: 2 !important;
+        column-count: 2 !important;
+        -webkit-column-gap: 15px !important;
+        -moz-column-gap: 15px !important;
+        column-gap: 15px !important;
+    }
+
+    #activityTabs ul#activityTabList .nav-item .nav-link {
+        padding: .25rem !important;
+        font-size: 12px;
+    }
+
+    #activityTabs ul#activityTabList .nav-item {
+        margin: 0 0.05rem -1px 0 !important;
+    }
+
+    .custom-radio .custom-control-label {
+        padding-top: 4px;
+    }
+
+    .custom-checkbox .custom-control-label {
+        padding-top: 2px;
+    }
+
+    .investment-block .index-element {
+        position: unset !important;
+    }
+
+    .cards-section .card-wrapper .card {
+        min-height: auto;
+    }
+
+    .filtering label,
+    .noBuybackTooltip,
+    .insiderStartInfo,
+    .rankInfo,
+    button.btn.button,
+    .dropdown-content li > a,
+    .dropdown-content li > span,
+    .select-wrapper.md-form > ul li.select-toggle-all label,
+    .issuer-actions .fc-action-button a,
+    .blog-editor,
+    .selectPermDel label,
+    .expiryField input,
+    .confirm-del .heading,
+    .rank-editor-heading,
+    .action-buttons .info-text,
+    .nested-tables table.table.yearly_table > thead th,
+    .modalCustom .modal-title,
+    .trade-directors .trd-row,
+    .right-top-rank,
+    .cards-section .card p,
+    .date-criteria .dateSet .md-form input,
+    .basic-multiple-select .select-wrapper input .select-dropdown,
+    .custom-select-option select,
+    .custom-select-option .basic-multiple-select.select-wrapper input.select-dropdown,
+    .custom-select-option .basic-multiple-select,
+    .alert-text,
+    .action_box,
+    .action_box label,
+    .trade-filter .trade-history-filter .custom-select-option,
+    .custom-switcher.switcher-box span,
+    .action-block .title_b,
+    .action_box .title_b,
+    .custom-select,
+    .modal-inner-head,
+    .trade-filter .trade-history-filter .filter-label,
+    ul.gj-list-bootstrap li [data-role="display"],
+    .custom-select-option .ms-options-wrap > button,
+    .custom-select-option .ms-options-wrap > button:focus {
+        font-size: 0.70rem !important;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .custom-nav.navbar.navbar-dark .navbar-brand {
+        margin-right: 0;
+        display: none;
+    }
+
+    main.content {
+        overflow: hidden;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-brand img {
+        max-width: 100px;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu .dropdown-item a .dropdown-item-link.special {
+        margin: auto;
+        min-width: 200px;
+    }
+
+    .trading-section .trading-block {
+        padding: 10px !important;
+    }
+
+    #activityTabs ul#activityTabList .nav-item .nav-link {
+        padding: 0.25rem !important;
+        font-size: 12px;
+    }
+
+    .custom-radio .custom-control-label {
+        padding-top: 3px;
+    }
+
+    .custom-checkbox .custom-control-label {
+        padding-top: 2px;
+    }
+
+    .custom-nav .navbar-nav .nav-item.drops .dropdown-menu.show .dropdown-item, .adChart-heading, .adChart-info {
+        width: 100% !important;
+    }
+
+    #mobile-search-item {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .md-accordion .card .card-header .heading {
+        max-width: 200px !important;
+    }
+
+    span.score-card-buy, span.score-card-sell {
+        margin-left: 0 !important;
+    }
+
+    .fas.fa-2x, .far.fa-2x {
+        font-size: 1.0em;
+    }
+}
+
+/* Customized Media Queries (Max Width) */
+
+/* Extra small devices (portrait phones, less than 400px)*/
+@media (max-width: 400px) {
+}
+
+@media (max-width: 320px) {
+    .custom-nav.navbar.navbar-dark .navbar-toggler {
+        font-size: 0.75rem;
+        padding: 0.15rem 0.35rem;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-brand img {
+        max-width: 90px;
+    }
+}
+
+/* Customized Media Queries (Max Width) */
+
+/* /DESKTOP FIRST MEDIA QUERIES */
+
+/**/
+
+/* MOBILE FIRST MEDIA QUERIES */
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .w-sm-5 {
+        width: 5% !important;
+    }
+
+    .w-sm-10 {
+        width: 10% !important;
+    }
+
+    .w-sm-15 {
+        width: 15% !important;
+    }
+
+    .w-sm-20 {
+        width: 20% !important;
+    }
+
+    .w-sm-25 {
+        width: 25% !important;
+    }
+
+    .w-sm-30 {
+        width: 30% !important;
+    }
+
+    .w-sm-33 {
+        width: 33% !important;
+    }
+
+    .w-sm-35 {
+        width: 35% !important;
+    }
+
+    .w-sm-40 {
+        width: 40% !important;
+    }
+
+    .w-sm-45 {
+        width: 45% !important;
+    }
+
+    .w-sm-50 {
+        width: 50% !important;
+    }
+
+    .w-sm-55 {
+        width: 55% !important;
+    }
+
+    .w-sm-60 {
+        width: 60% !important;
+    }
+
+    .w-sm-65 {
+        width: 65% !important;
+    }
+
+    .w-sm-66 {
+        width: 66% !important;
+    }
+
+    .w-sm-70 {
+        width: 70% !important;
+    }
+
+    .w-sm-75 {
+        width: 75% !important;
+    }
+
+    .w-sm-80 {
+        width: 80% !important;
+    }
+
+    .w-sm-85 {
+        width: 85% !important;
+    }
+
+    .w-sm-90 {
+        width: 90% !important;
+    }
+
+    .w-sm-95 {
+        width: 95% !important;
+    }
+
+    .w-sm-100 {
+        width: 100% !important;
+    }
+
+    .w-sm-auto {
+        width: auto !important;
+    }
+
+    .h-sm-25 {
+        height: 25% !important;
+    }
+
+    .h-sm-50 {
+        height: 50% !important;
+    }
+
+    .h-sm-75 {
+        height: 75% !important;
+    }
+
+    .h-sm-100 {
+        height: 100% !important;
+    }
+
+    .h-sm-auto {
+        height: auto !important;
+    }
+
+    .togTradeHistory {
+        max-width: 510px;
+        padding: 0 !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .w-md-5 {
+        width: 5% !important;
+    }
+
+    .w-md-10 {
+        width: 10% !important;
+    }
+
+    .w-md-15 {
+        width: 15% !important;
+    }
+
+    .w-md-20 {
+        width: 20% !important;
+    }
+
+    .w-md-25 {
+        width: 25% !important;
+    }
+
+    .w-md-30 {
+        width: 30% !important;
+    }
+
+    .w-md-33 {
+        width: 33% !important;
+    }
+
+    .w-md-35 {
+        width: 35% !important;
+    }
+
+    .w-md-40 {
+        width: 40% !important;
+    }
+
+    .w-md-45 {
+        width: 45% !important;
+    }
+
+    .w-md-50 {
+        width: 50% !important;
+    }
+
+    .w-md-55 {
+        width: 55% !important;
+    }
+
+    .w-md-60 {
+        width: 60% !important;
+    }
+
+    .w-md-65 {
+        width: 65% !important;
+    }
+
+    .w-md-66 {
+        width: 66% !important;
+    }
+
+    .w-md-70 {
+        width: 70% !important;
+    }
+
+    .w-md-75 {
+        width: 75% !important;
+    }
+
+    .w-md-80 {
+        width: 80% !important;
+    }
+
+    .w-md-85 {
+        width: 85% !important;
+    }
+
+    .w-md-90 {
+        width: 90% !important;
+    }
+
+    .w-md-95 {
+        width: 95% !important;
+    }
+
+    .w-md-100 {
+        width: 100% !important;
+    }
+
+    .w-md-auto {
+        width: auto !important;
+    }
+
+    .h-md-25 {
+        height: 25% !important;
+    }
+
+    .h-md-50 {
+        height: 50% !important;
+    }
+
+    .h-md-75 {
+        height: 75% !important;
+    }
+
+    .h-md-100 {
+        height: 100% !important;
+    }
+
+    .h-md-auto {
+        height: auto !important;
+    }
+
+    .togTradeHistory {
+        max-width: 690px;
+        padding: 0 !important;
+    }
+
+    .issuer-actions .fc-action-button {
+        margin-left: 5px !important;
+    }
+
+    .issuer-actions .fc-action-button a {
+        font-size: 0.60rem !important;
+    }
+
+    .custom-control.custom-checkbox {
+        min-height: 1.25rem;
+    }
+
+    #activityTabs ul#activityTabList .nav-item .nav-link {
+        padding: 0.30rem 0.70rem !important;
+        font-size: 13px;
+    }
+
+    .header-intro .cstm-border {
+        border-right: 1px solid #AAAEB3;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .w-lg-5 {
+        width: 5% !important;
+    }
+
+    .w-lg-10 {
+        width: 10% !important;
+    }
+
+    .w-lg-15 {
+        width: 15% !important;
+    }
+
+    .w-lg-20 {
+        width: 20% !important;
+    }
+
+    .w-lg-25 {
+        width: 25% !important;
+    }
+
+    .w-lg-30 {
+        width: 30% !important;
+    }
+
+    .w-lg-33 {
+        width: 33% !important;
+    }
+
+    .w-lg-35 {
+        width: 35% !important;
+    }
+
+    .w-lg-40 {
+        width: 40% !important;
+    }
+
+    .w-lg-45 {
+        width: 45% !important;
+    }
+
+    .w-lg-50 {
+        width: 50% !important;
+    }
+
+    .w-lg-55 {
+        width: 55% !important;
+    }
+
+    .w-lg-60 {
+        width: 60% !important;
+    }
+
+    .w-lg-65 {
+        width: 65% !important;
+    }
+
+    .w-lg-66 {
+        width: 66% !important;
+    }
+
+    .w-lg-70 {
+        width: 70% !important;
+    }
+
+    .w-lg-75 {
+        width: 75% !important;
+    }
+
+    .w-lg-80 {
+        width: 80% !important;
+    }
+
+    .w-lg-85 {
+        width: 85% !important;
+    }
+
+    .w-lg-90 {
+        width: 90% !important;
+    }
+
+    .w-lg-95 {
+        width: 95% !important;
+    }
+
+    .w-lg-100 {
+        width: 100% !important;
+    }
+
+    .w-lg-auto {
+        width: auto !important;
+    }
+
+    .h-lg-25 {
+        height: 25% !important;
+    }
+
+    .h-lg-50 {
+        height: 50% !important;
+    }
+
+    .h-lg-75 {
+        height: 75% !important;
+    }
+
+    .h-lg-100 {
+        height: 100% !important;
+    }
+
+    .h-lg-auto {
+        height: auto !important;
+    }
+
+    .col-padding {
+        padding: 0 10px;
+    }
+
+    .drops .dropdown-toggle::after {
+        display: none;
+        margin: 0;
+        border: 0;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item.nav-home > .nav-link > span,
+    #mobile-search-item {
+        display: none !important;
+    }
+
+    #desktop-search-item {
+        max-width: 200px;
+    }
+
+    .header-intro .prof-desc {
+        max-width: 75%;
+    }
+
+    .custom-nav.navbar.navbar-dark {
+        max-height: 75px;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item > .nav-link:hover,
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item > .nav-link:focus,
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item > .nav-link:active,
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item.show > .nav-link {
+        border-radius: 5px;
+        color: #6ebe01 !important;
+        border-bottom: 5px solid #6ebe01;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item,
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu.show {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu.show {
+        max-height: 700px;
+        border-radius: 5px;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu.show .dropdown-menu-child {
+        max-width: 70%;
+    }
+
+    #desktop-search-item,
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu.show {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops.settings .dropdown-menu.show {
+        left: unset;
+        right: 0;
+    }
+
+    .trading-detail .analysis-detail .return-analysis-header .heading,
+    .trading-detail .analysis-detail .return-analysis-header > span {
+        width: 48.5% !important;
+    }
+
+    .search-result .dataTables_wrapper .dataTables_filter,
+    .search-result .dataTables_wrapper .dataTables_length,
+    .dataTables_wrapper .dataTables_info,
+    .dataTables_wrapper .dataTables_paginate {
+        width: 50% !important;
+    }
+
+    .search-result .dataTables_wrapper .dataTables_filter {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        margin-bottom: 5px;
+    }
+
+    .link-text,
+    .dashboard-intro p {
+        font-size: 0.85rem;
+    }
+
+    #activityTabs ul#activityTabList .nav-item .nav-link {
+        padding: 0.35rem 0.75rem !important;
+        font-size: 14px;
+    }
+
+    .togTradeHistory {
+        max-width: 930px;
+        padding: 0 !important;
+    }
+
+    .modalCustom .modal-dialog {
+        min-width: 500px;
+    }
+}
+
+/* Customized Media Queries (Min Width) */
+
+@media (min-width: 1024px) {
+
+    .col-padding {
+        padding: 0 20px;
+    }
+
+}
+
+/* Customized Media Queries (Min Width) */
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .w-xl-5 {
+        width: 5% !important;
+    }
+
+    .w-xl-10 {
+        width: 10% !important;
+    }
+
+    .w-xl-15 {
+        width: 15% !important;
+    }
+
+    .w-xl-20 {
+        width: 20% !important;
+    }
+
+    .w-xl-25 {
+        width: 25% !important;
+    }
+
+    .w-xl-30 {
+        width: 30% !important;
+    }
+
+    .w-xl-33 {
+        width: 33% !important;
+    }
+
+    .w-xl-35 {
+        width: 35% !important;
+    }
+
+    .w-xl-40 {
+        width: 40% !important;
+    }
+
+    .w-xl-45 {
+        width: 45% !important;
+    }
+
+    .w-xl-50 {
+        width: 50% !important;
+    }
+
+    .w-xl-55 {
+        width: 55% !important;
+    }
+
+    .w-xl-60 {
+        width: 60% !important;
+    }
+
+    .w-xl-65 {
+        width: 65% !important;
+    }
+
+    .w-xl-66 {
+        width: 66% !important;
+    }
+
+    .w-xl-70 {
+        width: 70% !important;
+    }
+
+    .w-xl-75 {
+        width: 75% !important;
+    }
+
+    .w-xl-80 {
+        width: 80% !important;
+    }
+
+    .w-xl-85 {
+        width: 85% !important;
+    }
+
+    .w-xl-90 {
+        width: 90% !important;
+    }
+
+    .w-xl-95 {
+        width: 95% !important;
+    }
+
+    .w-xl-100 {
+        width: 100% !important;
+    }
+
+    .w-xl-auto {
+        width: auto !important;
+    }
+
+    .h-xl-25 {
+        height: 25% !important;
+    }
+
+    .h-xl-50 {
+        height: 50% !important;
+    }
+
+    .h-xl-75 {
+        height: 75% !important;
+    }
+
+    .h-xl-100 {
+        height: 100% !important;
+    }
+
+    .h-xl-auto {
+        height: auto !important;
+    }
+
+    .col-padding {
+        padding: 0 30px;
+    }
+
+    .tab-padding {
+        padding: 0 10px;
+    }
+
+    .custom-radio .custom-control-label {
+        padding-top: 2px;
+    }
+
+    .custom-checkbox .custom-control-label {
+        padding-top: 1px;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-brand {
+        min-width: 200px;
+        width: 20%;
+        margin-right: 0;
+    }
+
+    .introduction-section,
+    .header-intro {
+        min-height: 110px;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.nav-special {
+        margin: auto 10px;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.nav-special:last-of-type {
+        margin-right: 0;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu.show .dropdown-item {
+        width: 25%;
+        padding: 0.25rem 0.9rem;
+    }
+
+    .togTradeHistory {
+        max-width: 1110px;
+        padding: 0 !important;
+    }
+
+    .portfoliolist_sec .dataTables_wrapper .dataTable.portfoliolist_table {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .portfoliolist_sec .dataTables_wrapper .dataTables_length {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .portfoliolist_sec .dataTables_wrapper .dataTables_filter {
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+
+    .portfoliolist_sec .dataTables_wrapper .dataTables_paginate {
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+
+    .mid-icon {
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .dropdown-content li > a,
+    .dropdown-content li > span,
+    .select-wrapper.md-form > ul li.select-toggle-all label,
+    .blog-editor,
+    .selectPermDel label,
+    .expiryField input,
+    .confirm-del .heading,
+    .rank-editor-heading,
+    .action-buttons .info-text,
+    .nested-tables table.table.yearly_table > thead th,
+    .trade-directors .trd-row,
+    .right-top-rank,
+    .cards-section .card p,
+    .modalCustom .modal-title,
+    .action-block .title_b,
+    .action_box .title_b,
+    .custom-select-option .basic-multiple-select,
+    .custom-select-option select,
+    .basic-multiple-select .select-wrapper input .select-dropdown,
+    .issuer-actions .fc-action-button a,
+    .custom-select-option .basic-multiple-select.select-wrapper input.select-dropdown,
+    .alert-text,
+    .custom-select,
+    .action_box,
+    .action_box label,
+    .trade-filter .trade-history-filter .filter-label,
+    .filtering label,
+    .modal-inner-head,
+    button.btn.button,
+    .date-criteria .dateSet .md-form input,
+    ul.gj-list-bootstrap li [data-role="display"],
+    .custom-select-option .ms-options-wrap > button,
+    .custom-select-option .ms-options-wrap > button:focus,
+    .custom-switcher.switcher-box span,
+    .trade-filter .trade-history-filter .custom-select-option,
+    .noBuybackTooltip,
+    .insiderStartInfo,
+    .rankInfo {
+        font-size: 0.85rem !important;
+    }
+}
+
+/* Extra extra large devices (1440px and up)*/
+@media (min-width: 1440px) {
+    .custom-nav.navbar.navbar-dark .navbar-brand {
+        width: 23.5%;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.nav-special {
+        margin: auto 20px;
+    }
+
+}
+
+/* Extra extra extra large devices (4K and up)*/
+@media (min-width: 2160px) {
+}
+
+/* /MOBILE FIRST MEDIA QUERIES */
+
+/* MIXED SCREEN MEDIA QUERIES */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu.show .dropdown-item {
+        width: 50%;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .custom-nav.navbar.navbar-dark .navbar-brand {
+        min-width: 100px;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops {
+        margin: auto 0;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav .nav-item.drops .dropdown-menu.show {
+        max-height: 400px;
+        min-height: 400px;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .custom-nav.navbar.navbar-dark .navbar-nav > .nav-item > .nav-link {
+        font-size: 1.20rem;
+        font-weight: 600;
+    }
+
+    .custom-radio .custom-control-label {
+        padding-top: 4px;
+    }
+
+    .custom-checkbox .custom-control-label {
+        padding-top: 2px;
+    }
+
+    #selectExpiryDate .custom-checkbox .custom-control-label {
+        padding-top: 0;
+    }
+
+    .chart-area .custom-control.custom-checkbox1, .chart-area .custom-control.custom-checkbox3 {
+        top: 20px !important;
+    }
+
+    .chart-area .custom-control.custom-checkbox2, .chart-area .custom-control.custom-checkbox4 {
+        top: 90px;
+    }
+
+    .chart-area .custom-control.custom-checkbox1 {
+        left: 0 !important;
+    }
+
+    .chart-area .custom-control.custom-checkbox2 {
+        left: 40px !important;
+    }
+
+    .chart-area .custom-control.custom-checkbox3 {
+        right: -5px !important;
+    }
+
+    .chart-area .custom-control.custom-checkbox4 {
+        right: 40px !important;
+    }
+
+    .alert-text,
+    .action_box,
+    .blog-editor,
+    .custom-select,
+    .right-top-rank,
+    .filtering label,
+    .action_box label,
+    .modal-inner-head,
+    button.btn.button,
+    .expiryField input,
+    .rank-editor-heading,
+    .confirm-del .heading,
+    .selectPermDel label,
+    .action_box .title_b,
+    .action-block .title_b,
+    .cards-section .card p,
+    .dropdown-content li > a,
+    .dropdown-content li > span,
+    .modalCustom .modal-title,
+    .trade-directors .trd-row,
+    .action-buttons .info-text,
+    .custom-select-option select,
+    .custom-switcher.switcher-box span,
+    .date-criteria .dateSet .md-form input,
+    .custom-select-option .basic-multiple-select,
+    .custom-select-option .ms-options-wrap > button,
+    ul.gj-list-bootstrap li [data-role="display"],
+    .nested-tables table.table.yearly_table > thead th,
+    .trade-filter .trade-history-filter .filter-label,
+    .custom-select-option .ms-options-wrap > button:focus,
+    .basic-multiple-select .select-wrapper input .select-dropdown,
+    .trade-filter .trade-history-filter .custom-select-option,
+    .custom-select-option .basic-multiple-select.select-wrapper input.select-dropdown {
+        font-size: 0.75rem !important;
+    }
+
+    .settings button.btn.button {
+        font-size: 1.0rem !important;
+    }
+
+    .fas.fa-2x, .far.fa-2x {
+        font-size: 1.25em;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1339.98px) {
+
+    .dropdown-content li > a,
+    .dropdown-content li > span,
+    .select-wrapper.md-form > ul li.select-toggle-all label,
+    .blog-editor,
+    .selectPermDel label,
+    .expiryField input,
+    .confirm-del .heading,
+    .rank-editor-heading,
+    .action-buttons .info-text,
+    .nested-tables table.table.yearly_table > thead th,
+    .cards-section .card p,
+    .trade-directors .trd-row,
+    .right-top-rank,
+    .modalCustom .modal-title,
+    .modal-inner-head,
+    button.btn.button,
+    .company.filtering .custom-select-option select,
+    .alert-text,
+    .custom-select,
+    .action_box,
+    .filtering label,
+    .action_box label,
+    .action-block .title_b,
+    .action_box .title_b,
+    .date-criteria .dateSet .md-form input,
+    .trade-filter .trade-history-filter .filter-label,
+    ul.gj-list-bootstrap li [data-role="display"],
+    .custom-switcher.switcher-box span,
+    .trade-filter .trade-history-filter .custom-select-option,
+    .custom-select-option .ms-options-wrap > button,
+    .custom-select-option .ms-options-wrap > button:focus,
+    .custom-select-option .basic-multiple-select,
+    .basic-multiple-select .select-wrapper input .select-dropdown,
+    .custom-select-option .basic-multiple-select.select-wrapper input.select-dropdown,
+    .custom-select-option select {
+        font-size: 0.735rem !important;
+    }
+
+    .settings button.btn.button {
+        font-size: 1.15rem !important;
+    }
+
+    .fas.fa-2x,
+    .far.fa-2x {
+        font-size: 1.5em;
+    }
+}
+
+/* /MIXED SCREEN MEDIA QUERIES */
